@@ -3,7 +3,6 @@ import { Container } from 'semantic-ui-react';
 import { Menu } from 'semantic-ui-react';
 import { Header } from 'semantic-ui-react';
 import { Image } from 'semantic-ui-react';
-import { Sidebar } from 'semantic-ui-react';
 
 import headerImage from './images/gobbler_start_2016_crop3.jpg'
 
