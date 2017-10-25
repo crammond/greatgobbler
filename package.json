@@ -1,5 +1,6 @@
 {
   "name": "greatgobbler",
+  "homepage": "https://crammond.github.io/greatgobbler/",
   "version": "0.1.0",
   "dependencies": {
     "react": "^15.6.1",
