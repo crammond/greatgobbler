@@ -71,7 +71,7 @@ class Faq extends Component {
           The 5k race course begins on the South track, proceeds out through the gate by the Panther dome through the student parking lots and turns right onto Riverside Drive, stays on Riverside Drive for approx. .5 miles, then turns right onto Stadium Drive toward Stellos Stadium, then passes by the Gate House and waterfalls and the remaining two miles are through the Mine Falls trails with a finish on the Nashua South track.
         </p>
         <p>
-          <Link to='/course_information'>HERE</Link> is a link to the course map.
+          <Link to={process.env.PUBLIC_URL + '/course_information'}>HERE</Link> is a link to the course map.
         </p>
         <p>
           In the event of inclement weather/snow or other conditions, an alternate course may be used.

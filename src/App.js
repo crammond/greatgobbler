@@ -61,7 +61,7 @@ class App extends Component {
                       inverted
                     >
                       {
-                        items.map(item => {return <Menu.Item key={item.key} name={item.name} as={Link} to={'/' + item.key} />})
+                        items.map(item => {return <Menu.Item key={item.key} name={item.name} as={Link} to={process.env.PUBLIC_URL + '/' + item.key} />})
                       }
                     </Menu>
                   }
@@ -71,7 +71,7 @@ class App extends Component {
                 <Dropdown text='Menu'>
                   <Dropdown.Menu>
                     {
-                      items.map(item => {return <Dropdown.Item key={item.key} as={Link} to={'/' + item.key} text={item.name} />})
+                      items.map(item => {return <Dropdown.Item key={item.key} as={Link} to={process.env.PUBLIC_URL + '/' + item.key} text={item.name} />})
                     }
                   </Dropdown.Menu>
                 </Dropdown>
@@ -86,15 +86,15 @@ class App extends Component {
           <Image src={headerImage} fluid />
           <Container text style={{padding: '10px'}}>
             <Switch>
-              <Route exact path="/" component={Home}/>
-              <Route exact path="/faq" component={Faq}/>
-              <Route exact path="/registration" component={() => <div>registration</div>}/>
-              <Route exact path="/course_information" component={() => <div>course_information</div>}/>
-              <Route exact path="/awards" component={() => <div>awards</div>}/>
-              <Route exact path="/volunteer" component={() => <div>volunteer</div>}/>
-              <Route exact path="/food_donations" component={() => <div>food_donations</div>}/>
-              <Route exact path="/sponsors" component={() => <div>sponsors</div>}/>
-              <Route exact path="/results" component={() => <div>results</div>}/>
+              <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}/>
+              <Route exact path={process.env.PUBLIC_URL + '/faq'} component={Faq}/>
+              <Route exact path={process.env.PUBLIC_URL + '/registration'} component={() => <div>registration</div>}/>
+              <Route exact path={process.env.PUBLIC_URL + '/course_information'} component={() => <div>course_information</div>}/>
+              <Route exact path={process.env.PUBLIC_URL + '/awards'} component={() => <div>awards</div>}/>
+              <Route exact path={process.env.PUBLIC_URL + '/volunteer'} component={() => <div>volunteer</div>}/>
+              <Route exact path={process.env.PUBLIC_URL + '/food_donations'} component={() => <div>food_donations</div>}/>
+              <Route exact path={process.env.PUBLIC_URL + '/sponsors'} component={() => <div>sponsors</div>}/>
+              <Route exact path={process.env.PUBLIC_URL + '/results'} component={() => <div>results</div>}/>
             </Switch>
           </Container>
       </div>
