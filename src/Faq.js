@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {
-  Header,
-  Container
+  Header
 } from 'semantic-ui-react';
 import {
   Link
@@ -10,7 +9,7 @@ import {
 class Faq extends Component {
   render() {
     return (
-      <Container text>
+      <div>
         <Header as='h2'>Frequently Asked Questions</Header>
         <Header as='h3'>When is the race?</Header>
         <p>
@@ -91,7 +90,7 @@ class Faq extends Component {
         <Header as='h3'>More Questions?</Header>
         <p>Ryan Haggerty - ryan.haggerty91@gmail.com</p>
         <p>Nate Burns - burnsn@nashua.edu</p>
-      </Container>
+      </div>
     )
   }
 }
