@@ -42,7 +42,7 @@ class Faq extends Component {
         </p>
         <Header as='h3'>How do I sign up?</Header>
         <p>
-          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2017'>HERE</a>
+          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2017' target='_blank' rel="noopener noreferrer">HERE</a>
         </p>
         <p>
           Online registration closes Monday night November 20, 2017 6:00 P.M.

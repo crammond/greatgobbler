@@ -60,6 +60,7 @@ class Home extends Component {
             size='massive'
             as='a'
             href='https://g2racereg.webconnex.com/gobbler5k2017'
+            target='_blank'
           />
           <br />
           <br />

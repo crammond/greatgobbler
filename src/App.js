@@ -33,16 +33,17 @@ import threeC from './images/3c_logo_en.png'
 import stJoseph from './images/stjosephhospital.png'
 import south from './images/panther_logo.png'
 import north from './images/titan_logo.png'
+import gobbler from './images/gobblerlogo.png'
 
 import 'semantic-ui-css/semantic.min.css';
 
 const items = [
   {key: 'faq', name: 'FAQ'},
   {key: 'registration', name: 'Registration'},
-  {key: 'course_information', name: 'Course Information'},
+  {key: 'course-information', name: 'Course Information'},
   {key: 'awards', name: 'Awards'},
   {key: 'volunteer', name: 'Volunteer'},
-  {key: 'food_donations', name: 'Food Donations'},
+  {key: 'food-donations', name: 'Food Donations'},
   {key: 'sponsors', name: 'Sponsors'},
   {key: 'results', name: 'Results'},
 ]
@@ -71,12 +72,15 @@ class App extends Component {
               }}
             >
               <Menu secondary>
-                <Responsive as={Menu.Item} header minWidth={1200}>
+                <Responsive minWidth={1050}>
+                  <Image height='100px' width='auto' src={gobbler}/>
+                </Responsive>
+                <Responsive as={Menu.Item} header minWidth={1300}>
                   <Header as='h1' inverted>
                     Great Gobbler 5k
                   </Header>
                 </Responsive>
-                <Responsive as={Menu.Item} minWidth={950}>
+                <Responsive as={Menu.Item} minWidth={1050}>
                   <Menu.Menu
                     position='right'
                     content={
@@ -92,7 +96,7 @@ class App extends Component {
                     }
                   />
                 </Responsive>
-                <Responsive as={Menu.Item} position='left' maxWidth={950} >
+                <Responsive as={Menu.Item} position='left' maxWidth={1050} >
                   <Dropdown icon={<Icon name='content' inverted/>}>
                     <Dropdown.Menu>
                       <Dropdown.Item key='home' as={NavLink} exact to={process.env.PUBLIC_URL + '/'} text='Home' />
@@ -125,10 +129,10 @@ class App extends Component {
                 <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}/>
                 <Route exact path={process.env.PUBLIC_URL + '/faq'} component={Faq}/>
                 <Route exact path={process.env.PUBLIC_URL + '/registration'} component={Registration}/>
-                <Route exact path={process.env.PUBLIC_URL + '/course_information'} component={CourseInformation}/>
+                <Route exact path={process.env.PUBLIC_URL + '/course-information'} component={CourseInformation}/>
                 <Route exact path={process.env.PUBLIC_URL + '/awards'} component={Awards}/>
                 <Route exact path={process.env.PUBLIC_URL + '/volunteer'} component={Volunteer}/>
-                <Route exact path={process.env.PUBLIC_URL + '/food_donations'} component={FoodDonations}/>
+                <Route exact path={process.env.PUBLIC_URL + '/food-donations'} component={FoodDonations}/>
                 <Route exact path={process.env.PUBLIC_URL + '/sponsors'} component={Sponsors}/>
                 <Route exact path={process.env.PUBLIC_URL + '/results'} component={Results}/>
               </Switch>
