@@ -52,7 +52,7 @@ class Home extends Component {
             </p>
           </Container>
         </Grid.Column>
-        <Responsive as={Grid.Column} textAlign='center' width={6}>
+        <Grid.Column textAlign='center' width={6}>
           <Button
             content='REGISTER'
             primary
@@ -61,6 +61,8 @@ class Home extends Component {
             as='a'
             href='https://g2racereg.webconnex.com/gobbler5k2017'
           />
+          <br />
+          <br />
           <Responsive
             as={FacebookPageWrapper}
             width={this.state.facebookWidth}
@@ -68,7 +70,7 @@ class Home extends Component {
               this.updateFacebookWidth(data.width, event.timeStamp)
             }}
           />
-        </Responsive>
+        </Grid.Column>
       </Grid>
     )
   }
