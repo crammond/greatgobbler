@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import {
   Header,
-  List
+  List,
+  Container
 } from 'semantic-ui-react';
 
 class Awards extends Component {
   render() {
     return (
-      <div>
+      <Container text>
         <Header as='h2' content='Awards' />
         <p>
           Awards will fall into 3 categories:
@@ -17,7 +18,7 @@ class Awards extends Component {
           <List.Item>Top 3 Overall Women</List.Item>
           <List.Item>Top 3 Age-Graded Alumni</List.Item>
         </List>
-      </div>
+      </Container>
     )
   }
 }

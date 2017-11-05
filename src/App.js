@@ -93,7 +93,7 @@ class App extends Component {
             </Container>
           </div>
           <Image src={headerImage} fluid />
-          <Container text style={{padding: '10px'}}>
+          <Container style={{padding: '10px'}}>
             <Switch>
               <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}/>
               <Route exact path={process.env.PUBLIC_URL + '/faq'} component={Faq}/>

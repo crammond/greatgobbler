@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import {
   Header,
-  List
+  List,
+  Container
 } from 'semantic-ui-react';
 
 class Sponsors extends Component {
   render() {
     return (
-      <div>
+      <Container text>
         <Header as='h2' content='Sponsors' />
         <Header as='h3' content='Primary Sponsor' />
         <p>St. Joseph Hospital</p>
@@ -55,7 +56,7 @@ class Sponsors extends Component {
         <p>
           To become a sponsor, download this form:  <a href="http://users.neo.myregisteredsite.com/7/4/4/11194447/assets/Great_Gobbler_-_Sponsorship_Levels.pdf">Sponsorship Form</a>
         </p>
-      </div>
+      </Container>
     )
   }
 }

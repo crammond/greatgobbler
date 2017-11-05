@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-const width = 240
 const height = 600
 
 class FacebookPageWrapper extends Component {
@@ -10,7 +9,7 @@ class FacebookPageWrapper extends Component {
         <iframe
           src={"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgreatgobbler5knashua&" +
                "tabs=timeline&" +
-               "width=" + width + "&" +
+               "width=" + this.props.width + "&" +
                "height=" + height + "&" +
                "small_header=true&" +
                "adapt_container_width=true&" +
@@ -18,7 +17,7 @@ class FacebookPageWrapper extends Component {
                "show_facepile=true&" +
                "appId"}
           title="facebookIFrame"
-          width={width}
+          width={this.props.width}
           height={height}
           style={{
             border:"none",

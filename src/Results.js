@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
   Header,
-  List
+  List,
+  Container
 } from 'semantic-ui-react';
 
 const gobblers = [
@@ -31,13 +32,13 @@ const resultsToListItems = (results) => {
 class Results extends Component {
   render() {
     return (
-      <div>
+      <Container text>
         <Header as='h2' content='Results' />
         <Header as='h3' content='Past Results:' />
         <List bulleted items={resultsToListItems(gobblers)} />
         <Header as='h3' content='When the race was the Nashua High Alumni Race:' />
         <List bulleted items={resultsToListItems(alumnis)} />
-      </div>
+      </Container>
     )
   }
 }

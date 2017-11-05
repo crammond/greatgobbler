@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import {
-  Header
+  Header,
+  Container
 } from 'semantic-ui-react';
 
 class Registration extends Component {
   render() {
     return (
-      <div>
+      <Container text>
         <Header as='h2'>Registration Details</Header>
         <Header as='h3'>Details</Header>
         <p>
@@ -45,7 +46,7 @@ class Registration extends Component {
           <br />
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
-      </div>
+      </Container>
     )
   }
 }
