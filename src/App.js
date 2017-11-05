@@ -6,7 +6,8 @@ import {
   Image,
   Responsive,
   Dropdown,
-  Grid
+  Grid,
+  Icon
 } from 'semantic-ui-react';
 import {
   Switch,
@@ -30,6 +31,8 @@ import fleetFeet from './images/svglogofleetfeet.svg'
 import donnaCorey from './images/donnacorey.JPG'
 import threeC from './images/3c_logo_en.png'
 import stJoseph from './images/stjosephhospital.png'
+import south from './images/panther_logo.png'
+import north from './images/titan_logo.png'
 
 import 'semantic-ui-css/semantic.min.css';
 
@@ -90,7 +93,7 @@ class App extends Component {
                   />
                 </Responsive>
                 <Responsive as={Menu.Item} position='left' maxWidth={950} >
-                  <Dropdown icon='content'>
+                  <Dropdown icon={<Icon name='content' inverted/>}>
                     <Dropdown.Menu>
                       <Dropdown.Item key='home' as={NavLink} exact to={process.env.PUBLIC_URL + '/'} text='Home' />
                       {
@@ -100,10 +103,20 @@ class App extends Component {
                   </Dropdown>
                 </Responsive>
               </Menu>
-              <Container textAlign='center' >
-                <Header as='h2' inverted>
-                  Thursday November 23, 2017 @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.
-                </Header>
+              <Container>
+                <Grid verticalAlign='middle'>
+                  <Grid.Column width={3} only='computer'>
+                    <Image src={south} centered style={{maxHeight: '100px'}} width='auto'/>
+                  </Grid.Column>
+                  <Grid.Column computer={10} mobile={16}>
+                    <Header as='h2' textAlign='center' inverted>
+                      Thursday November 23, 2017 @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.
+                    </Header>
+                  </Grid.Column>
+                  <Grid.Column width={3} only='computer'>
+                    <Image src={north} centered style={{maxHeight: '100px'}} width='auto'/>
+                  </Grid.Column>
+                </Grid>
               </Container>
             </div>
             <Image src={headerImage} fluid />
