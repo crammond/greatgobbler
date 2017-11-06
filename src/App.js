@@ -31,6 +31,8 @@ import fleetFeet from './images/svglogofleetfeet.svg'
 import donnaCorey from './images/donnacorey.JPG'
 import threeC from './images/3c_logo_en.png'
 import stJoseph from './images/stjosephhospital.png'
+import windSoul from './images/windsoul_logo.png'
+
 import south from './images/panther_logo.png'
 import north from './images/titan_logo.png'
 import gobbler from './images/gobblerlogo.png'
@@ -52,7 +54,8 @@ const sponsors = [
   stJoseph,
   threeC,
   donnaCorey,
-  fleetFeet
+  fleetFeet,
+  windSoul
 ]
 
 class App extends Component {
@@ -139,7 +142,7 @@ class App extends Component {
             </Container>
         </div>
         <div>
-          <Grid columns={sponsors.length} verticalAlign='middle' style={{margin: 0}}>
+          <Grid columns={sponsors.length} verticalAlign='middle' style={{margin: 0}} doubling centered>
             {sponsors.map((logo, index) => {return <Grid.Column key={'sponsor' + index}><Image centered src={logo} height='auto' width='200px'/></Grid.Column>})}
           </Grid>
         </div>
