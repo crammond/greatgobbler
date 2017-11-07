@@ -129,15 +129,15 @@ class App extends Component {
             <Image src={headerImage} fluid />
             <Container style={{padding: '10px'}}>
               <Switch>
-                <Route path={`${process.env.PUBLIC_URL}/faq`} component={Faq}/>
-                <Route path={`${process.env.PUBLIC_URL}/registration`} component={Registration}/>
-                <Route path={`${process.env.PUBLIC_URL}/course-information`} component={CourseInformation}/>
-                <Route path={`${process.env.PUBLIC_URL}/awards`} component={Awards}/>
-                <Route path={`${process.env.PUBLIC_URL}/volunteer`} component={Volunteer}/>
-                <Route path={`${process.env.PUBLIC_URL}/food-donations`} component={FoodDonations}/>
-                <Route path={`${process.env.PUBLIC_URL}/sponsors`} component={Sponsors}/>
-                <Route path={`${process.env.PUBLIC_URL}/results`} component={Results}/>
-                <Route path={`${process.env.PUBLIC_URL}/`} component={Home}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/faq`} component={Faq}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/registration`} component={Registration}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/course-information`} component={CourseInformation}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/awards`} component={Awards}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/volunteer`} component={Volunteer}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/food-donations`} component={FoodDonations}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/sponsors`} component={Sponsors}/>
+                <Route exact path={`${process.env.PUBLIC_URL}/results`} component={Results}/>
               </Switch>
             </Container>
         </div>
