@@ -1,5 +1,6 @@
 {
   "name": "greatgobbler",
+  "homepage": "http://greatgobbler.com/",
   "version": "0.1.0",
   "dependencies": {
     "react": "^16.0.0",
