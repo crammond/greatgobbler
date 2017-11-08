@@ -10,7 +10,7 @@ class Volunteer extends Component {
       <Container text>
         <Header as='h2' content='Volunteer' />
         <p>
-          We always need volunteers! If you would like to volunteer, please signup <a href="http://www.signupgenius.com/go/9040545A9A829A20-12th/20419597" >HERE</a>. There are many opportunities to help out!
+          We always need volunteers! If you would like to volunteer, please signup <a href="http://www.signupgenius.com/go/5080c4faca923a3fd0-15annual" target="_blank" rel="noopener noreferrer">HERE</a>. There are many opportunities to help out!
         </p>
       </Container>
     )
