@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
   Header,
-  Container
+  Container,
+  List
 } from 'semantic-ui-react';
 import {
   Link
@@ -82,7 +83,18 @@ class Faq extends Component {
         </p>
         <Header as='h3'>When can I pick up my race bib?</Header>
         <p>
-          Race Bibs (and shirts for the first 500 entrants) will be distributed as follows:  Wednesday November 22, 2017 from 10:30 A.M. until 5:00 P.M. at Fleet Feet Sports in Nashua. You may also sign up for the race (if space is still available) and pick up your race bib and sign up on the morning of the race.
+          Race Bibs (and shirts for the first 500 entrants) will be distributed as follows:
+        </p>
+        <List bulleted>
+          <List.Item>
+            Wednesday, November 22, 2017 from 10:30 A.M. until 5:00 P.M. at Fleet Feet Sports in Nashua
+          </List.Item>
+          <List.Item>
+            Thursday, November 23, 2017 from 6:00 A.M. to 7:45 A.M. on the day of the race in the Nashua High School South cafeteria
+          </List.Item>
+        </List>
+        <p>
+          You may also sign up for the race (if space is still available) and pick up your race bib on the morning of the race.
         </p>
         <Header as='h3'>Will I get a Great Gobbler long sleeve shirt?</Header>
         <p>
