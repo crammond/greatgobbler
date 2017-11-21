@@ -90,7 +90,7 @@ class Faq extends Component {
             Wednesday, November 22, 2017 from 10:30 A.M. until 5:00 P.M. at Fleet Feet Sports in Nashua
           </List.Item>
           <List.Item>
-            Thursday, November 23, 2017 from 6:00 A.M. to 7:45 A.M. on the day of the race in the Nashua High School South cafeteria
+            Thursday, November 23, 2017 from 6:45 A.M. to 7:45 A.M. on the day of the race in the Nashua High School South cafeteria
           </List.Item>
         </List>
         <p>
