@@ -17,10 +17,10 @@ class Registration extends Component {
           Online registration closes Monday night November 20, 2017 6:00 P.M.
         </p>
         <p>
-          Registration will be limited to the first 1,000 entrants. The last two years have SOLD OUT!
+          Registration will be limited to the first 1,300 entrants. The last two years have SOLD OUT!
         </p>
         <p>
-          If the race has not sold out you may sign up on the day of the race up until 7:30 A.M.
+          Due to increased number of registrants this year, there will be no race day registrations.
         </p>
         <Header as='h3'>Cost</Header>
         <p>

@@ -49,10 +49,10 @@ class Faq extends Component {
           Online registration closes Monday night November 20, 2017 6:00 P.M.
         </p>
         <p>
-          Registration will be limited to the first 1,000 entrants. The last two years have SOLD OUT!
+          Registration will be limited to the first 1,300 entrants. The last two years have SOLD OUT!
         </p>
         <p>
-          If the race has not sold out you may sign up on the day of the race up until 7:30 A.M.
+          Due to increased number of registrants this year, there will be no race day registrations.
         </p>
         <Header as='h3'>What happens in the event of inclement weather?</Header>
         <p>
@@ -90,12 +90,9 @@ class Faq extends Component {
             Wednesday, November 22, 2017 from 10:30 A.M. until 5:00 P.M. at Fleet Feet Sports in Nashua
           </List.Item>
           <List.Item>
-            Thursday, November 23, 2017 from 6:45 A.M. to 7:45 A.M. on the day of the race in the Nashua High School South cafeteria
+            Thursday, November 23, 2017 from 6:45 A.M. until 7:45 A.M. on the day of the race in the Nashua High School South cafeteria
           </List.Item>
         </List>
-        <p>
-          You may also sign up for the race (if space is still available) and pick up your race bib on the morning of the race.
-        </p>
         <Header as='h3'>Will I get a Great Gobbler long sleeve shirt?</Header>
         <p>
           The first 500 paid 5K registrants receive a Great Gobbler shirt. (No shirt for the kid’s fun run, but every child 2-10 will receive a finishers medal)
