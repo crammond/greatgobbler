@@ -14,20 +14,20 @@ class Registration extends Component {
           You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2017' target="_blank" rel="noopener noreferrer">HERE</a>
         </p>
         <p>
-          Online registration closes Monday night November 20, 2017 6:00 P.M.
+          Online registration closes Monday night November 19, 2018 6:00 P.M.
         </p>
         <p>
-          Registration will be limited to the first 1,300 entrants. The last two years have SOLD OUT!
+          Registration will be limited to the first 1,500 entrants. The last two years have SOLD OUT!
         </p>
-        <p>
+        {/* <p>
           Due to increased number of registrants this year, there will be no race day registrations.
-        </p>
+        </p> */}
         <Header as='h3'>Cost</Header>
         <p>
-          Registration for the race will open on September 1,  2017.
+          Registration for the race will open on September 1, 2018.
         </p>
         <p>
-          For all entries received by November 13, 2017:
+          For all entries received by November 12, 2018:
         </p>
         <p>
           $20.00 Adults (18 and older)
@@ -37,7 +37,7 @@ class Registration extends Component {
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
         <p>
-          Registrations received after November 13, 2017:
+          Registrations received after November 12, 2018:
         </p>
         <p>
           $25.00 Adults (18 and older)
