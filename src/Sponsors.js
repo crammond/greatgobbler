@@ -20,7 +20,7 @@ class Sponsors extends Component {
             <List.Content>
               <Header as='h4' content='Platinum ($1000)' />
               <List.Description>
-                Two free race numbers, company collateral in runner bag (provided by you), space for a booth on race day, and your company name will be announced on race day, company name/logo on website and prime location on the race shirt, we will hang a banner provided by you at the event, and place your name on a mile marker.
+                Two free race numbers, space for a booth on race day, and your company name will be announced on race day, company name/logo on website and prime location on the race shirt, we will hang a banner provided by you at the event, and place your name on a mile marker.
               </List.Description>
             </List.Content>
           </List.Item>
@@ -28,7 +28,7 @@ class Sponsors extends Component {
             <List.Content>
               <Header as='h4' content='Gold ($500)' />
               <List.Description>
-                Two free race numbers, company collateral in runner bag (provided by you), space for a booth on race day, and your company name will be announced on race day, company name/logo on website and shirt, and we will hang a banner provided by you at the event.
+                Two free race numbers, space for a booth on race day, and your company name will be announced on race day, company name/logo on website and shirt, and we will hang a banner provided by you at the event.
               </List.Description>
             </List.Content>
           </List.Item>
@@ -36,7 +36,7 @@ class Sponsors extends Component {
             <List.Content>
               <Header as='h4' content='Silver ($250)' />
               <List.Description>
-                One free race number, company collateral in runner bag (provided by you), space for a booth on race day, and your company name will be announced on race day.
+                One free race number, name on back of shirt, space for a booth on race day, and your company name will be announced on race day.
               </List.Description>
             </List.Content>
           </List.Item>
@@ -51,7 +51,7 @@ class Sponsors extends Component {
         </List>
         <Header as='h3' content='Why Sponsor?' />
         <p>
-          Your sponsorship benefits both the Nashua High School North and Nashua High School South Cross Country programs. The cross country teams at both schools work to keep students active, strive for academic excellence and promote community service. The teams at both schools donate a portion of the proceeds to a cause on an annual basis.
+          Your sponsorship benefits both the Nashua High School North and South Boys’ and Girls’ Cross-Country programs. The cross-country teams at North and South work to keep students active, strive for academic excellence, and promote community service.
         </p>
         <p>
           To become a sponsor, download this form:  <a href="http://users.neo.myregisteredsite.com/7/4/4/11194447/assets/Great_Gobbler_-_Sponsorship_Levels.pdf" target="_blank" rel="noopener noreferrer">Sponsorship Form</a>
