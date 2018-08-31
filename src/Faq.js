@@ -19,7 +19,7 @@ class Faq extends Component {
         </p>
         <Header as='h3'>What is the cost of the race?</Header>
         <p>
-          Registration for the race will open on September 1,  2018.
+          Registration for the race will open on September 1, 2018.
         </p>
         <p>
           For all entries received by November 12, 2018:
@@ -43,7 +43,7 @@ class Faq extends Component {
         </p>
         <Header as='h3'>How do I sign up?</Header>
         <p>
-          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2017' target='_blank' rel="noopener noreferrer">HERE</a>
+          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2018' target='_blank' rel="noopener noreferrer">HERE</a>
         </p>
         <p>
           Online registration closes Monday night November 19, 2018 6:00 P.M.
