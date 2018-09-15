@@ -28,10 +28,9 @@ import Results from './Results'
 import headerImage from './images/gobbler_start_2016_crop3.jpg'
 
 import fleetFeet from './images/svglogofleetfeet.svg'
-import donnaCorey from './images/donnacorey.JPG'
 import threeC from './images/3c_logo_en.png'
-import stJoseph from './images/stjosephhospital.png'
-import windSoul from './images/windsoul_logo.png'
+import stJoseph from './images/SJN_horizontal.jpg'
+import snhh from './images/SNHH_NETWORK.jpg'
 
 import south from './images/panther_logo.png'
 import north from './images/titan_logo.png'
@@ -53,9 +52,8 @@ const items = [
 const sponsors = [
   stJoseph,
   threeC,
-  donnaCorey,
   fleetFeet,
-  windSoul
+  snhh
 ]
 
 class App extends Component {
