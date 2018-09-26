@@ -11,7 +11,7 @@ class Registration extends Component {
         <Header as='h2'>Registration Details</Header>
         <Header as='h3'>Details</Header>
         <p>
-          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2017' target="_blank" rel="noopener noreferrer">HERE</a>
+          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2018' target="_blank" rel="noopener noreferrer">HERE</a>
         </p>
         <p>
           Online registration closes Monday night November 19, 2018 6:00 P.M.
