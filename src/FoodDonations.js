@@ -10,7 +10,7 @@ class FoodDonations extends Component {
       <Container text>
         <Header as='h2' content='Food Donations' />
         <p>
-          Every year we collect food for the Nashua Food Bank. There will be a table set up at Fleet Feet on Wednesday, November 22 from 10:30 a.m. to 4 p.m. during bib pick-up as well as a table in the Nashua South Cafeteria on race day.
+          Every year we collect food for the Nashua Food Bank. There will be a table set up at Fleet Feet on Wednesday, November 27, 2019 from 10:30 a.m. to 5 p.m. during bib pick-up as well as a table in the Nashua South Cafeteria on race day.
         </p>
       </Container>
     )
