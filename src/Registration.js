@@ -11,10 +11,10 @@ class Registration extends Component {
         <Header as='h2'>Registration Details</Header>
         <Header as='h3'>Details</Header>
         <p>
-          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2018' target="_blank" rel="noopener noreferrer">HERE</a>
+          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2019' target="_blank" rel="noopener noreferrer">HERE</a>
         </p>
         <p>
-          Online registration closes Monday night November 19, 2018 6:00 P.M.
+          Online registration closes Monday night November 25, 2019 6:00 P.M.
         </p>
         <p>
           Registration will be limited to the first 1,500 entrants. The last two years have SOLD OUT!
@@ -24,10 +24,10 @@ class Registration extends Component {
         </p> */}
         <Header as='h3'>Cost</Header>
         <p>
-          Registration for the race will open on September 1, 2018.
+          Registration for the race will open on September 1, 2019.
         </p>
         <p>
-          For all entries received by November 12, 2018:
+          For all entries received by November 18, 2019:
         </p>
         <p>
           $20.00 Adults (18 and older)
@@ -37,7 +37,7 @@ class Registration extends Component {
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
         <p>
-          Registrations received after November 12, 2018:
+          Registrations received after November 18, 2019:
         </p>
         <p>
           $25.00 Adults (18 and older)

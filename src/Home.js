@@ -59,7 +59,7 @@ class Home extends Component {
             style={{margin: 0}}
             size='massive'
             as='a'
-            href='https://g2racereg.webconnex.com/gobbler5k2018'
+            href='https://g2racereg.webconnex.com/gobbler5k2019'
             target='_blank'
           />
           <br />

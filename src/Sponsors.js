@@ -5,6 +5,8 @@ import {
   Container
 } from 'semantic-ui-react';
 
+import sponsorInfo from "./pdfs/Sponsorship Levels 2019 GG.pdf"
+
 class Sponsors extends Component {
   render() {
     return (
@@ -54,7 +56,7 @@ class Sponsors extends Component {
           Your sponsorship benefits both the Nashua High School North and South Boys’ and Girls’ Cross-Country programs. The cross-country teams at North and South work to keep students active, strive for academic excellence, and promote community service.
         </p>
         <p>
-          To become a sponsor, download this form:  <a href="http://users.neo.myregisteredsite.com/7/4/4/11194447/assets/Great_Gobbler_-_Sponsorship_Levels.pdf" target="_blank" rel="noopener noreferrer">Sponsorship Form</a>
+          To become a sponsor, download this form:  <a href={sponsorInfo} target="_blank" rel="noopener noreferrer">Sponsorship Form</a>
         </p>
       </Container>
     )
