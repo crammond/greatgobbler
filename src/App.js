@@ -27,7 +27,7 @@ import Results from './Results'
 
 import headerImage from './images/gobbler_start_2016_crop3.jpg'
 
-import fleetFeet from './images/svglogofleetfeet.svg'
+import fleetFeet from './images/FF_Logo_Nashua_Color.png'
 import threeC from './images/3c_logo_en.png'
 import stJoseph from './images/SJN_horizontal.jpg'
 import snhh from './images/SNHH_NETWORK.jpg'
