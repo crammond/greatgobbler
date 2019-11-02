@@ -31,6 +31,11 @@ import fleetFeet from './images/FF_Logo_Nashua_Color.png'
 import threeC from './images/3c_logo_en.png'
 import stJoseph from './images/SJN_horizontal.jpg'
 import snhh from './images/SNHH_NETWORK.jpg'
+import chewie from './images/Chewie Logo.jpg'
+import conway from './images/conway logo.png'
+import dcuGreen from './images/DCUGreen.svg'
+import gateCityFarm from './images/Gate City Farm Logo.png'
+import prg from './images/PRG Logo.png'
 
 import south from './images/panther_logo.png'
 import north from './images/titan_logo.png'
@@ -53,7 +58,12 @@ const sponsors = [
   stJoseph,
   threeC,
   fleetFeet,
-  snhh
+  snhh,
+  chewie,
+  conway,
+  dcuGreen,
+  gateCityFarm,
+  prg
 ]
 
 class App extends Component {
