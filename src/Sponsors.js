@@ -13,7 +13,14 @@ class Sponsors extends Component {
         <Header as='h3' content='Primary Sponsor' />
         <p>St. Joseph Hospital</p>
         <Header as='h4' content='Gold Sponsors' />
-        <p>Fleet Feet Sports, Haggerty's Cleaning Service, Inc.</p>
+        <p>Fleet Feet</p>
+        <p>Haggerty's Cleaning Service, Inc.</p>
+        <Header as='h4' content='Silver Sponsors' />
+        <p>Chewie's Playland LLC</p>
+        <p>Conway Management Company</p>
+        <p>DCU, Digital Federal Credit Union</p>
+        <p>Gate City Farms</p>
+        <p>PRG, Persian Rug Galleries</p>
         <Header as='h3' content='Want to become a Sponsor?' />
         <List bulleted>
           <List.Item>
