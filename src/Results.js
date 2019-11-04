@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-import {
-  Header,
-  List,
-  Container
-} from 'semantic-ui-react';
 
 const gobblers = [
   {year: 2018, url: 'http://3craceproductions.com/raceresults.php?raceId=2025&type=LINKS0'},
@@ -28,19 +23,23 @@ const alumnis = [
 ]
 
 const resultsToListItems = (results) => {
-  return results.map(result => {return <List.Item key={result.year} content={result.year} href={result.url} />})
+  return results.map(result => {return <li>{result.year}</li>})
 }
 
 class Results extends Component {
   render() {
     return (
-      <Container text>
-        <Header as='h2' content='Results' />
-        <Header as='h3' content='Past Results:' />
-        <List bulleted items={resultsToListItems(gobblers)} />
-        <Header as='h3' content='When the race was the Nashua High Alumni Race:' />
-        <List bulleted items={resultsToListItems(alumnis)} />
-      </Container>
+      <div>
+        <h2>Results</h2>
+        <h3>Past Results:</h3>
+        <ul>
+          {resultsToListItems(gobblers)}
+        </ul>
+        <h3>When the race was the Nashua High Alumni Race:</h3>
+        <ul>
+          {resultsToListItems(alumnis)}
+        </ul>
+      </div>
     )
   }
 }
