@@ -6,6 +6,7 @@ import {
 } from 'semantic-ui-react';
 
 const gobblers = [
+  {year: 2019, url: 'https://www.3craceproductions.com/raceresults.php?raceId=2146&type=LINKS0'},
   {year: 2018, url: 'http://3craceproductions.com/raceresults.php?raceId=2025&type=LINKS0'},
   {year: 2017, url: 'http://www.coolrunning.com/results/17/nh/Nov23_GreatG_set1.shtml'},
   {year: 2016, url: 'http://www.coolrunning.com/results/16/nh/Nov24_GreatG_set1.shtml'},
