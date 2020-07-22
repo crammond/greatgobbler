@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import map from './images/GobblerMAP2.png'
+import map from '../images/GobblerMAP2.png'
 
 class CourseInformation extends Component {
   render() {

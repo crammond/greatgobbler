@@ -6,15 +6,15 @@ import {
   Link
 } from 'react-router-dom'
 
-import Home from './Home'
-import Faq from './Faq'
-import Registration from './Registration'
-import CourseInformation from './CourseInformation'
-import Awards from './Awards'
-import Volunteer from './Volunteer'
-import FoodDonations from './FoodDonations'
-import Sponsors from './Sponsors'
-import Results from './Results'
+import Home from './pages/Home'
+import Faq from './pages/Faq'
+import Registration from './pages/Registration'
+import CourseInformation from './pages/CourseInformation'
+import Awards from './pages/Awards'
+import Volunteer from './pages/Volunteer'
+import FoodDonations from './pages/FoodDonations'
+import Sponsors from './pages/Sponsors'
+import Results from './pages/Results'
 
 import headerImage from './images/gobbler_start_2016_crop3.jpg'
 
