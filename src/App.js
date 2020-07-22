@@ -125,7 +125,7 @@ class App extends Component {
                   </Grid.Column>
                   <Grid.Column computer={10} mobile={16}>
                     <Header as='h2' textAlign='center' inverted>
-                      Thursday, November 28, 2019 @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.
+                      Thursday, November 26, 2020 @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.
                     </Header>
                   </Grid.Column>
                   <Grid.Column width={3} only='computer'>
