@@ -10,14 +10,14 @@ class Faq extends Component {
         <h2>Frequently Asked Questions</h2>
         <h3>When is the race?</h3>
         <p>
-          The race will be held on Thanksgiving Day Thursday, November 28, 2019 at Nashua High School South. The 5K race starts at 8:00 A.M. sharp. The Little Gobbler Fun Run (400m) starts at 7:30 A.M. The start and finish of both races will be on the Nashua High School South track.
+          The race will be held on Thanksgiving Day Thursday, November 26, 2020 at Nashua High School South. The 5K race starts at 8:00 A.M. sharp. The Little Gobbler Fun Run (400m) starts at 7:30 A.M. The start and finish of both races will be on the Nashua High School South track.
         </p>
         <h3>What is the cost of the race?</h3>
         <p>
-          Registration for the race will open on September 1, 2019.
+          Registration for the race will open on September 1, 2020.
         </p>
         <p>
-          For all entries received by November 18, 2019:
+          For all entries received by November 16, 2020:
         </p>
         <p>
           $20.00 Adults (18 and older)
@@ -27,7 +27,7 @@ class Faq extends Component {
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
         <p>
-          Registrations received after November 18, 2019:
+          Registrations received after November 16, 2020:
         </p>
         <p>
           $25.00 Adults (18 and older)
@@ -41,7 +41,7 @@ class Faq extends Component {
           You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2019' target='_blank' rel="noopener noreferrer">HERE</a>
         </p>
         <p>
-          Online registration closes Monday night November 25, 2019 6:00 P.M.
+          Online registration closes Monday night November 23, 2020 6:00 P.M.
         </p>
         <p>
           Registration will be limited to the first 1,500 entrants. The last two years have SOLD OUT!
@@ -54,7 +54,7 @@ class Faq extends Component {
           It is unlikely the race will be postponed due to inclement weather. This race has been run in the snow several times.  Any postponement would be announced NOT on this website but on our "Great Gobbler Thanksgiving Day 5k" Facebook page. If you don’t see an announcement there that means the race is on as scheduled. Due to the large size of the race we cannot respond to individual emails or calls in the days leading up to the race asking if the race “might” be postponed or what our “thinking” is about the weather on race day. Simply watch ourFacebook for details.  If nothing is posted, the race is on as scheduled.
         </p>
         <p>
-          If the race is postponed, the inclement weather date would be Sunday, December 1, 2019. The 5K race will start at 8:00 A.M. sharp. The Little Gobbler Fun Run (400m) will start at 7:30am.
+          If the race is postponed, the inclement weather date would be Sunday, November 29, 2020. The 5K race will start at 8:00 A.M. sharp. The Little Gobbler Fun Run (400m) will start at 7:30am.
         </p>
         <p>
           There will be no refunds for inclement weather postponements.
@@ -74,7 +74,7 @@ class Faq extends Component {
         </p>
         <h3>Are you still taking donations of canned goods for the Nashua Soup Kitchen and Shelter?</h3>
         <p>
-          Yes! There will be a table set up inside Fleet Feet Sports on Wednesday, November 27, 2019 during bib pick-up as well as a table inside the Nashua South cafeteria on race day.
+          Yes! There will be a table set up inside Fleet Feet Sports on Wednesday, November 25, 2020 during bib pick-up as well as a table inside the Nashua South cafeteria on race day.
         </p>
         <h3>When can I pick up my race bib?</h3>
         <p>
@@ -82,10 +82,10 @@ class Faq extends Component {
         </p>
         <ul>
           <li>
-            Wednesday, November 27, 2019 from 10:30 A.M. until 5:00 P.M. at Fleet Feet Sports in Nashua
+            Wednesday, November 25, 2020 from 10:30 A.M. until 5:00 P.M. at Fleet Feet Sports in Nashua
           </li>
           <li>
-            Thursday, November 28, 2019 from 6:45 A.M. until 7:45 A.M. on the day of the race in the Nashua High School South cafeteria
+            Thursday, November 26, 2020 from 6:45 A.M. until 7:45 A.M. on the day of the race in the Nashua High School South cafeteria
           </li>
         </ul>
         <h3>Will I get a Great Gobbler long sleeve shirt?</h3>

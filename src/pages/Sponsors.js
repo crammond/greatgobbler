@@ -22,7 +22,10 @@ class Sponsors extends Component {
             <div>
               <h4>Title Sponsor ($1200)</h4>
               <div>
-                Two free race numbers, space for a booth on race day, and your company name will be announced on race day, company name/logo on website and prime location on the race shirt, we will hang a banner provided by you at the event, and place your name on a mile marker. Registration discount for title sponsor employees. Company logo on the front of our race’s mascot.
+                Two free race numbers, space for a booth on race day, and your company name will be announced on
+                race day, company name/logo on website and prime location on the race shirt, we will hang a banner
+                provided by you at the event, and place your name on a mile marker. Registration discount for title
+                sponsor employees. Company logo on the front of our race’s mascot.
               </div>
             </div>
           </li>
@@ -30,15 +33,18 @@ class Sponsors extends Component {
             <div>
               <h4>Platinum ($1000)</h4>
               <div>
-                Two free race numbers, space for a booth on race day, and your company name will be announced on race day, company name/logo on website and prime location on the race shirt, we will hang a banner provided by you at the event, and place your name on a mile marker.
-              </div>
+                Two free race numbers, space for a booth on race day, and your company name will be announced on
+                race day, company name/logo on website and prime location on the race shirt, we will hang a banner
+                provided by you at the event, and place your name on a mile marker.</div>
             </div>
           </li>
           <li>
             <div>
               <h4>Gold ($500)</h4>
               <div>
-                Two free race numbers, space for a booth on race day, and your company name will be announced on race day, company name/logo on website and shirt, and we will hang a banner provided by you at the event.
+                Two free race numbers, space for a booth on race day, and your company name will be announced on
+                race day, company name/logo on website and shirt, and we will hang a banner provided by you at the
+                event.
               </div>
             </div>
           </li>
@@ -46,7 +52,8 @@ class Sponsors extends Component {
             <div>
               <h4>Silver ($250)</h4>
               <div>
-                One free race number, name on back of shirt, space for a booth on race day, and your company name will be announced on race day.
+                One free race number, name on back of shirt, space for a booth on race day, and your company name will
+                be announced on race day.
               </div>
             </div>
           </li>
@@ -61,10 +68,17 @@ class Sponsors extends Component {
         </ul>
         <h3>Why Sponsor?</h3>
         <p>
-          Your sponsorship benefits both the Nashua High School North and South Boys’ and Girls’ Cross-Country programs. The cross-country teams at North and South work to keep students active, strive for academic excellence, and promote community service.
+          Your sponsorship benefits both the Nashua High School North and South Boys’ and Girls’ Cross-Country
+          programs. The cross-country teams at North and South work to keep students active, strive for academic
+          excellence, and promote community service.
         </p>
         <p>
-          To become a sponsor, download this form:  <a href="http://users.neo.myregisteredsite.com/7/4/4/11194447/assets/Great_Gobbler_-_Sponsorship_Levels.pdf" target="_blank" rel="noopener noreferrer">Sponsorship Form</a>
+          To become a sponsor, download this form:
+          <a
+            href="http://users.neo.myregisteredsite.com/7/4/4/11194447/assets/Great_Gobbler_-_Sponsorship_Levels.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          > Sponsorship Form </a>
         </p>
       </div>
     )

@@ -62,7 +62,7 @@ class App extends Component {
     return (
       <div>
         <h1>Great Gobbler 5k</h1>
-        <h2>Thursday, November 28, 2019 @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.</h2>
+        <h2>Thursday, November 26, 2020 @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.</h2>
         <h2>A Nashua Community Thanksgiving Tradition</h2>
         <ul>
           {items.map(item => <li><Link to={`/${item.key}`}>{item.name}</Link></li>)}
