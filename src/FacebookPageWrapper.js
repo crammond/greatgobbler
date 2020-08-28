@@ -25,7 +25,7 @@ class FacebookPageWrapper extends Component {
           }}
           scrolling="no"
           frameBorder="0"
-          allowTransparency="true"
+          allowtransparency="true"
         >
         </iframe>
       </div>
