@@ -10,7 +10,7 @@ class Sponsors extends Component {
     return (
       <Container text>
         <Header as='h2' content='Sponsors' />
-        <Header as='h3' content='Primary Sponsor' />
+        {/* <Header as='h3' content='Primary Sponsor' />
         <p>St. Joseph Hospital</p>
         <Header as='h4' content='Gold Sponsors' />
         <p>Fleet Feet</p>
@@ -20,7 +20,7 @@ class Sponsors extends Component {
         <p>Conway Management Company</p>
         <p>DCU, Digital Federal Credit Union</p>
         <p>Gate City Farms</p>
-        <p>PRG, Persian Rug Galleries</p>
+        <p>PRG, Persian Rug Galleries</p> */}
         <Header as='h3' content='Want to become a Sponsor?' />
         <List bulleted>
           <List.Item>

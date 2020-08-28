@@ -44,6 +44,9 @@ class Home extends Component {
       <Grid reversed='mobile' stackable>
         <Grid.Column width={10}>
           <Container style={{width: '100%'}} text>
+            <p style={{color: "red", fontSize: "2.5rem"}}>
+              This year's Great Gobbler race has been cancelled due to concerns with COVID-19. We will be planning a virtual event in place of the physical race. Stay turned to our Facebook page and website for more information in the coming weeks.
+            </p>
             <Header textAlign='center' as='h2'>
               A Nashua Community Thanksgiving Tradition
             </Header>
