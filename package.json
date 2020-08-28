@@ -9,9 +9,12 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.87.3"
   },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env REACT_APP_GIT_SHA=`git rev-parse --short HEAD` react-scripts start",
+    "build": "cross-env REACT_APP_GIT_SHA=`git rev-parse --short HEAD` react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
