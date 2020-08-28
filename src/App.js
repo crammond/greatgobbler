@@ -141,11 +141,13 @@ class App extends Component {
               </Switch>
             </Container>
         </div>
+        {Boolean(sponsors.length) && (
         <div>
           <Grid columns={sponsors.length} verticalAlign='middle' style={{margin: 0}} doubling centered>
             {sponsors.map((logo, index) => {return <Grid.Column key={'sponsor' + index}><Image centered src={logo} height='auto' width='200px'/></Grid.Column>})}
           </Grid>
         </div>
+        )}
       </div>
     );
   }
