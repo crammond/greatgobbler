@@ -45,13 +45,13 @@ class Home extends Component {
         <Grid.Column width={10}>
           <Container style={{width: '100%'}} text>
             <p style={{color: "red", fontSize: "2.5rem"}}>
-              This year's Great Gobbler race has been cancelled due to concerns with COVID-19. We will be planning a virtual event in place of the physical race. Stay turned to our Facebook page and website for more information in the coming weeks.
+              Due to the COVID-19 pandemic, the Great Gobbler race is going virtual this year. Click on the "REGISTER" link to register for our virtual Great Gobbler.
             </p>
             <Header textAlign='center' as='h2'>
               A Nashua Community Thanksgiving Tradition
             </Header>
             <p>
-              Warm up your Thanksgiving appetite at Nashua High School South at the 17th Annual Great Gobbler 5K! The Great Gobbler 5K brings together family, friends, Nashua High School cross country alumni as well as the Greater Nashua area community to start the day in a healthy way.  Join runners, joggers and walkers for a morning of fun in support of the Nashua North and South Boys and Girls Cross Country Programs.
+              Warm up your Thanksgiving appetite at Nashua High School South at the 18th Annual Great Gobbler 5K! The Great Gobbler 5K brings together family, friends, Nashua High School cross country alumni as well as the Greater Nashua area community to start the day in a healthy way.  Join runners, joggers and walkers for a morning of fun in support of the Nashua North and South Boys and Girls Cross Country Programs.
             </p>
           </Container>
         </Grid.Column>
@@ -62,7 +62,7 @@ class Home extends Component {
             style={{margin: 0}}
             size='massive'
             as='a'
-            href='https://g2racereg.webconnex.com/gobbler5k2019'
+            href='https://runsignup.com/Race/NH/Nashua/18thAnnualGreatGobblerThanksgivingDayVirtual5k'
             target='_blank'
           />
           <br />
