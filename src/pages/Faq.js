@@ -38,7 +38,7 @@ class Faq extends Component {
         </p>
         <h3>How do I sign up?</h3>
         <p>
-          You may register online <a href='https://g2racereg.webconnex.com/gobbler5k2019' target='_blank' rel="noopener noreferrer">HERE</a>
+          You may register online <a href='https://runsignup.com/Race/NH/Nashua/18thAnnualGreatGobblerThanksgivingDayVirtual5k' target='_blank' rel="noopener noreferrer">HERE</a>
         </p>
         <p>
           Online registration closes Monday night November 23, 2020 6:00 P.M.

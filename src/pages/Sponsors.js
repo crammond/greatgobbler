@@ -5,7 +5,7 @@ class Sponsors extends Component {
     return (
       <div>
         <h2>Sponsors</h2>
-        <h3>Primary Sponsor</h3>
+        {/*<h3>Primary Sponsor</h3>
         <p>St. Joseph Hospital</p>
         <h4>Gold Sponsors</h4>
         <p>Fleet Feet</p>
@@ -15,7 +15,7 @@ class Sponsors extends Component {
         <p>Conway Management Company</p>
         <p>DCU, Digital Federal Credit Union</p>
         <p>Gate City Farms</p>
-        <p>PRG, Persian Rug Galleries</p>
+        <p>PRG, Persian Rug Galleries</p> */}
         <h3>Want to become a Sponsor?</h3>
         <ul>
           <li>

@@ -18,6 +18,7 @@ import Results from './pages/Results'
 
 import headerImage from './images/gobbler_start_2016_crop3.jpg'
 
+/*
 import fleetFeet from './images/FF_Logo_Nashua_Color.png'
 import threeC from './images/3c_logo_en.png'
 import stJoseph from './images/SJN_horizontal.jpg'
@@ -27,6 +28,7 @@ import conway from './images/conway logo.png'
 import dcuGreen from './images/DCUGreen.svg'
 import gateCityFarm from './images/Gate City Farm Logo.png'
 import prg from './images/PRG Logo.png'
+*/
 
 import south from './images/panther_logo.png'
 import north from './images/titan_logo.png'
@@ -43,17 +45,7 @@ const items = [
   {key: 'results', name: 'Results'},
 ]
 
-const sponsors = [
-  stJoseph,
-  threeC,
-  fleetFeet,
-  snhh,
-  chewie,
-  conway,
-  dcuGreen,
-  gateCityFarm,
-  prg
-]
+const sponsors = []
 
 class App extends Component {
 
