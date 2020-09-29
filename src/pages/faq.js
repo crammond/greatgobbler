@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import {
-  Link
-} from 'react-router-dom'
+import React, { Component } from "react";
+import { Link } from "gatsby"
+
+import Layout from "../components/layout";
 
 class Faq extends Component {
   render() {
     return (
-      <div>
+      <Layout title="FAQ">
         <h2>Frequently Asked Questions</h2>
         <h3>When is the race?</h3>
         <p>
@@ -67,7 +67,7 @@ class Faq extends Component {
           The 5k race course begins on the South track, proceeds out through the gate by the Panther dome through the student parking lots and turns right onto Riverside Drive, stays on Riverside Drive for approx. .5 miles, then turns right onto Stadium Drive toward Stellos Stadium, then passes by the Gate House and waterfalls and the remaining two miles are through the Mine Falls trails with a finish on the Nashua South track.
         </p>
         <p>
-          <Link to='/course_information'>HERE</Link> is a link to the course map.
+          <Link to='/course-information'>HERE</Link> is a link to the course map.
         </p>
         <p>
           In the event of inclement weather/snow or other conditions, an alternate course may be used.
@@ -95,7 +95,7 @@ class Faq extends Component {
         <h3>More Questions?</h3>
         <p>Ryan Haggerty - ryan.haggerty91@gmail.com</p>
         <p>Nate Burns - burnsn@nashua.edu</p>
-      </div>
+      </Layout>
     )
   }
 }

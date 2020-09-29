@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import Layout from '../components/layout';
+
 class Registration extends Component {
   render() {
     return (
-      <div>
+      <Layout title="Registration">
         <h2>Registration Details</h2>
         <h3>Details</h3>
         <p>
@@ -42,7 +44,7 @@ class Registration extends Component {
           <br />
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
-      </div>
+      </Layout>
     )
   }
 }

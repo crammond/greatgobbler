@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Layout from '../components/layout';
 
 const gobblers = [
   {year: 2019, url: 'https://www.3craceproductions.com/raceresults.php?raceId=2146&type=LINKS0'},
@@ -24,13 +25,13 @@ const alumnis = [
 ]
 
 const resultsToListItems = (results) => {
-  return results.map(result => {return <li>{result.year}</li>})
+  return results.map(({ year }) => {return <li>{year}</li>})
 }
 
 class Results extends Component {
   render() {
     return (
-      <div>
+      <Layout title="Results">
         <h2>Results</h2>
         <h3>Past Results:</h3>
         <ul>
@@ -40,7 +41,7 @@ class Results extends Component {
         <ul>
           {resultsToListItems(alumnis)}
         </ul>
-      </div>
+      </Layout>
     )
   }
 }

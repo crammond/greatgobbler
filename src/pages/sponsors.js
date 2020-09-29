@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import Layout from '../components/layout';
+
 class Sponsors extends Component {
   render() {
     return (
-      <div>
+      <Layout title="Sponsors">
         <h2>Sponsors</h2>
         {/*<h3>Primary Sponsor</h3>
         <p>St. Joseph Hospital</p>
@@ -80,7 +82,7 @@ class Sponsors extends Component {
             rel="noopener noreferrer"
           > Sponsorship Form </a>
         </p>
-      </div>
+      </Layout>
     )
   }
 }

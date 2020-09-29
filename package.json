@@ -1,28 +1,35 @@
 {
   "name": "greatgobbler",
   "version": "0.1.0",
+  "author": "Craig Hammond <craig@craighammond.me>",
   "dependencies": {
-    "gatsby": "^2.18.25",
+    "gatsby": "^2.24.65",
+    "gatsby-plugin-react-helmet": "^3.3.11",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.3"
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.2"
   },
   "scripts": {
-    "start": "cross-env REACT_APP_GIT_SHA=`git rev-parse --short HEAD` react-scripts start",
-    "build": "cross-env REACT_APP_GIT_SHA=`git rev-parse --short HEAD` react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "cross-env GATSBY_GIT_SHA=`git rev-parse --short HEAD` gatsby build",
+    "develop": "cross-env GATSBY_GIT_SHA=`git rev-parse --short HEAD` gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crammond/greatgobbler"
+  }
 }
