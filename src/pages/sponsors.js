@@ -75,12 +75,12 @@ class Sponsors extends Component {
           excellence, and promote community service.
         </p>
         <p>
-          To become a sponsor, download this form:
+          {"To become a sponsor, download this form: "}
           <a
             href="http://users.neo.myregisteredsite.com/7/4/4/11194447/assets/Great_Gobbler_-_Sponsorship_Levels.pdf"
             target="_blank"
             rel="noopener noreferrer"
-          > Sponsorship Form </a>
+          >Sponsorship Form</a>
         </p>
       </Layout>
     )
