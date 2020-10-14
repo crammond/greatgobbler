@@ -1,3 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Great Gobbler 5K
 
-You can find the most recent version of the Create React App guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+This is the source code for greatgobbler.com.
+
+## Develop
+
+```
+$ npm ci # pull down packages
+$ npm start # start development server
+```
+
+To test the production build locally:
+
+```
+$ npm run build
+$ npm run serve

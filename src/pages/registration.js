@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import {
-  Header,
-  Container
-} from 'semantic-ui-react';
+
+import Layout from '../components/layout';
 
 class Registration extends Component {
   render() {
     return (
-      <Container text>
-        <Header as='h2'>Registration Details</Header>
-        <Header as='h3'>Details</Header>
+      <Layout title="Registration">
+        <h2>Registration Details</h2>
+        <h3>Details</h3>
         <p>
           You may register online <a href='https://runsignup.com/Race/NH/Nashua/18thAnnualGreatGobblerThanksgivingDayVirtual5k' target="_blank" rel="noopener noreferrer">HERE</a>
         </p>
@@ -22,7 +20,7 @@ class Registration extends Component {
         {/* <p>
           Due to increased number of registrants this year, there will be no race day registrations.
         </p> */}
-        <Header as='h3'>Cost</Header>
+        <h3>Cost</h3>
         <p>
           Registration for the race will open on September 1, 2020.
         </p>
@@ -46,7 +44,7 @@ class Registration extends Component {
           <br />
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
-      </Container>
+      </Layout>
     )
   }
 }
