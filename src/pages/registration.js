@@ -14,9 +14,9 @@ class Registration extends Component {
         <p>
           Online registration closes Sunday, December 6, 2020 at 11:59 P.M.{/* Online registration closes Monday night November 23, 2020 6:00 P.M. */}
         </p>
-        <p>
+        {/* <p>
           Registration will be limited to the first 1,500 entrants. The last two years have SOLD OUT!
-        </p>
+        </p> */}
         {/* <p>
           Due to increased number of registrants this year, there will be no race day registrations.
         </p> */}

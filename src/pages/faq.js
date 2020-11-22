@@ -46,9 +46,9 @@ class Faq extends Component {
         <p>
           Online registration closes Sunday, December 6, 2020 at 11:59 P.M.{/*Monday night November 23, 2020 6:00 P.M.*/}
         </p>
-        <p>
+        {/* <p>
           Registration will be limited to the first 1,500 entrants. The last two years have SOLD OUT!
-        </p>
+        </p> */}
         {/* <p>
           Due to increased number of registrants this year, there will be no race day registrations.
         </p> */}
@@ -79,9 +79,10 @@ class Faq extends Component {
           In the event of inclement weather/snow or other conditions, an alternate course may be used.
         </p>
         <h3>Are you still taking donations of canned goods for the Nashua Soup Kitchen and Shelter?</h3>
-        <p>
+        <p>Unfortunately we are unable to accept donations of canned goods this year.</p>
+        {/* <p>
           Yes! There will be a table set up inside Fleet Feet Sports on Wednesday, November 25, 2020 during bib pick-up as well as a table inside the Nashua South cafeteria on race day.
-        </p>
+        </p> */}
         <h3>When can I pick up my race bib?</h3>
         {/* <p>
           Race Bibs (and shirts for the first 500 entrants) will be distributed as follows:
