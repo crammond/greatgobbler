@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Craig Hammond <craig@craighammond.me>",
   "dependencies": {
-    "gatsby": "^2.24.65",
+    "gatsby": "^2.27.0",
     "gatsby-plugin-react-helmet": "^3.3.11",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
