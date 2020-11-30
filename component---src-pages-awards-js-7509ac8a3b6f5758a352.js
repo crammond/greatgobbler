@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{BHVr:function(e,t,n){"use strict";n.r(t);var r=n("9Hrx"),a=n("q1tI"),o=n.n(a),u=n("Bl7J"),i=function(e){function t(){return e.apply(this,arguments)||this}return Object(r.a)(t,e),t.prototype.render=function(){return o.a.createElement(u.a,{title:"Awards"},o.a.createElement("h2",null,"Awards"),o.a.createElement("p",null,"Due to the nature of the virtual event this year we will not be doing awards."))},t}(a.Component);t.default=i}}]);
+//# sourceMappingURL=component---src-pages-awards-js-7509ac8a3b6f5758a352.js.map
