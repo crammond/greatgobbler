@@ -17,22 +17,12 @@ class Registration extends Component {
         </p>
         <h3>Cost</h3>
         <p>
-          $20.00 Adults (18 and older)
-          <br />
-          $15.00 Youth (17 and younger)
-          <br />
-          Little Gobbler (400m) Fun Run is FREE (ages 2-10)
-        </p>
-        {/* <p>
-          Registrations received after November 16, 2020:
-        </p>
-        <p>
           $25.00 Adults (18 and older)
           <br />
           $20.00 Youth (17 and younger)
           <br />
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
-        </p> */}
+        </p>
       </Layout>
     )
   }

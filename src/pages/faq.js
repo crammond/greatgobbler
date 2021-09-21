@@ -18,9 +18,9 @@ class Faq extends Component {
           Registration for the race will be open soon! Keep an eye on our <a href='https://www.facebook.com/greatgobbler5knashua' target='_blank' rel="noopener noreferrer">Facebook</a> page or check back here. 
         </p>
         <p>
-          $20.00 Adults (18 and older)
+          $25.00 Adults (18 and older)
           <br />
-          $15.00 Youth (17 and younger)
+          $20.00 Youth (17 and younger)
           <br />
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
