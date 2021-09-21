@@ -38,11 +38,11 @@ const Header = ({ children, uri }) => (
             </ul>
         </div>
         <div className="header-bottom">
-            <img src={southLogo} height="100px" width="auto" alt=""/>
+            <img src={northLogo} height="100px" width="auto" alt=""/>
             <h2>
                 Virtual race will take place Thursday, November 26, 2020 through Sunday, December 6, 2020. There is no in person meeting this year.{/* @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.*/}
             </h2>
-            <img src={northLogo} height="100px" width="auto" alt=""/>
+            <img src={southLogo} height="100px" width="auto" alt=""/>
         </div>
     </header>
     <img src={startingLinePic} height="auto" width="100%" alt=""/>
