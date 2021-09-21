@@ -81,7 +81,7 @@ main {
     padding: 5px !important;
   }
 
-  #hamburger:checked ~ .header-nav { display: none; }
+  #hamburger:not(:checked) ~ .header-nav { display: none; }
 
   #home {
     flex-direction: column-reverse;
