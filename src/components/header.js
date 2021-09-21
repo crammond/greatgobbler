@@ -39,8 +39,8 @@ const Header = ({ children, uri }) => (
         </div>
         <div className="header-bottom">
             <img src={northLogo} height="100px" width="auto" alt=""/>
-            <h2>
-                Virtual race will take place Thursday, November 26, 2020 through Sunday, December 6, 2020. There is no in person meeting this year.{/* @ Nashua High School South. Great Gobbler 5k @ 8:00 A.M., Little Gobbler (400m) @ 7:30 A.M.*/}
+            <h2 style={{ padding: "0 20px" }}>
+                The Great Gobbler is BACK in-person on Thursday November 25th 2021! Registration open soon! Register {/*now*/} early to secure your spot and collect our famous race day shirt, available for the first 500 registrants!
             </h2>
             <img src={southLogo} height="100px" width="auto" alt=""/>
         </div>

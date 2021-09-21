@@ -7,15 +7,9 @@ class Awards extends Component {
     return (
       <Layout title="Awards">
         <h2>Awards</h2>
-        <p>Due to the nature of the virtual event this year we will not be doing awards.</p>
-        {/* <p>
-          Awards will fall into 3 categories:
+        <p>
+          Awards will be given to the top 3 male and female 5K competitors
         </p>
-        <ul>
-          <li>Top 3 Overall Men</li>
-          <li>Top 3 Overall Women</li>
-          <li>Top 3 Age-Graded Alumni</li>
-        </ul> */}
       </Layout>
     )
   }

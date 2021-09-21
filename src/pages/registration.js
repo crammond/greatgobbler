@@ -9,30 +9,19 @@ class Registration extends Component {
         <h2>Registration Details</h2>
         <h3>Details</h3>
         <p>
-          You may register online <a href='https://runsignup.com/Race/NH/Nashua/18thAnnualGreatGobblerThanksgivingDayVirtual5k' target="_blank" rel="noopener noreferrer">HERE</a>
+          A registration link will be available here and on the home page soon.
+          {/* You may register online <a href='https://runsignup.com/Race/NH/Nashua/18thAnnualGreatGobblerThanksgivingDayVirtual5k' target="_blank" rel="noopener noreferrer">HERE</a> */}
         </p>
         <p>
-          Online registration closes Sunday, December 6, 2020 at 11:59 P.M.{/* Online registration closes Monday night November 23, 2020 6:00 P.M. */}
+          Online registration closes on Monday, November 22nd 2021 at 11:59 P.M. If there are still spots available, in-person registration will take place on Wednesday, November 24th at Fleet Feet Sports in Nashua from 10:00am to 5:00pm AND race day morning at Nashua South until 7:30am.
         </p>
-        {/* <p>
-          Registration will be limited to the first 1,500 entrants. The last two years have SOLD OUT!
-        </p> */}
-        {/* <p>
-          Due to increased number of registrants this year, there will be no race day registrations.
-        </p> */}
         <h3>Cost</h3>
-        {/* <p>
-          Registration for the race will open on September 1, 2020.
-        </p> */}
-        {/* <p>
-          For all entries received by November 16, 2020:
-        </p> */}
         <p>
           $20.00 Adults (18 and older)
           <br />
           $15.00 Youth (17 and younger)
-          {/* <br />
-          Little Gobbler (400m) Fun Run is FREE (ages 2-10) */}
+          <br />
+          Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
         {/* <p>
           Registrations received after November 16, 2020:

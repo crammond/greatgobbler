@@ -7,10 +7,9 @@ class FoodDonations extends Component {
     return (
       <Layout title="Food Donations">
         <h2>Food Donations</h2>
-        <p>Unfortunately we are unable to accept donations of canned goods this year. Please check back next year!</p>
-        {/* <p>
-          Every year we collect food for the Nashua Food Bank. There will be a table set up at Fleet Feet on Wednesday, November 25, 2020 from 10:30 A.M. to 5:00 P.M. during bib pick-up as well as a table in the Nashua South Cafeteria on race day.
-        </p> */}
+        <p>
+          Each year we accept donations of canned goods for the Nashua Soup Kitchen and Shelter. Donations will be accepted on Wednesday, November 24th at Fleet Feet Sports in Nashua from 10:00am to 5:00pm AND race day morning in the Nashua South cafeteria. Thank you for your generosity!
+        </p>
       </Layout>
     )
   }
