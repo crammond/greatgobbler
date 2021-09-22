@@ -15,9 +15,6 @@ class Faq extends Component {
         </p>
         <h3>What is the cost of the race?</h3>
         <p>
-          Registration for the race will be open soon! Keep an eye on our <a href='https://www.facebook.com/greatgobbler5knashua' target='_blank' rel="noopener noreferrer">Facebook</a> page or check back here. 
-        </p>
-        <p>
           $25.00 Adults (18 and older)
           <br />
           $20.00 Youth (17 and younger)
@@ -26,8 +23,7 @@ class Faq extends Component {
         </p>
         <h3>How do I sign up?</h3>
         <p>
-          A registration link will be available here and on the home page soon.
-          {/* You may register online <a href='https://runsignup.com/Race/NH/Nashua/18thAnnualGreatGobblerThanksgivingDayVirtual5k' target='_blank' rel="noopener noreferrer">HERE</a> */}
+          You may register online <a href='https://raceroster.com/events/2021/52332/great-gobbler-thanksgiving-day-5k' target='_blank' rel="noopener noreferrer">HERE</a>
         </p>
         <p>
           Online registration closes Monday, November 22nd 2021. In-person registration and bib pick up will take place on Wednesday, November 24th at Fleet Feet Sports in Nashua from 10:00am to 5:00pm AND race day morning at Nashua South until 7:30am.
@@ -62,7 +58,7 @@ class Faq extends Component {
         </p>
         <h3>Will I get a Great Gobbler long sleeve shirt?</h3>
         <p>
-          Our famous Great Gobbler long sleeve shirts are available for the first 500 registrants.{/* Spots are filling fast, so register now!*/} A limited number of sizes will be available for purchase at the Fleet Feet bib pickup and on race day.
+          Our famous Great Gobbler long sleeve shirts are available for the first 500 registrants. Spots are filling fast, so register now! A limited number of sizes will be available for purchase at the Fleet Feet bib pickup and on race day.
 
           The first 500 registrants can pick up their shirts at bib pick up.
         </p>
