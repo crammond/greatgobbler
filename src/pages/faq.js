@@ -30,7 +30,7 @@ class Faq extends Component {
         </p>
         <h3>What happens in the event of inclement weather?</h3>
         <p>
-          It is unlikely the race will be postponed due to inclement weather. This race has been run in the snow several times. Any postponement would be announced NOT on this website but on our <a href='https://www.facebook.com/greatgobbler5knashua' target='_blank' rel="noopener noreferrer">"Great Gobbler Thanksgiving Day 5k" Facebook page</a>. If you don’t see an announcement there that means the race is on as scheduled. Due to the large size of the race we cannot respond to individual emails or calls in the days leading up to the race asking if the race “might” be postponed or what our “thinking” is about the weather on race day. Simply watch our <a href='https://www.facebook.com/greatgobbler5knashua' target='_blank' rel="noopener noreferrer">Facebook</a> for details. If nothing is posted, the race is on as scheduled.
+          It is unlikely the race will be postponed due to inclement weather. This race has been run in the snow several times. Any postponement will be announced on this website and on our <a href='https://www.facebook.com/greatgobbler5knashua' target='_blank' rel="noopener noreferrer">"Great Gobbler Thanksgiving Day 5k" Facebook page</a>. If you don’t see an announcement that means the race is on as scheduled. Due to the large size of the race we cannot respond to individual emails or calls in the days leading up to the race asking if the race “might” be postponed or what our “thinking” is about the weather on race day.
         </p>
         <p>
           There will be no refunds for inclement weather postponements.
