@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Layout from '../components/layout';
 
 const gobblers = [
+  {year: 2021, url: 'https://www.secondwindtiming.com/result-page/?id=187241'},
   {year: 2020, url: 'https://runsignup.com/Race/Results/99251#resultSetId-215368;perpage:100'},
   {year: 2019, url: 'https://www.3craceproductions.com/raceresults.php?raceId=2146&type=LINKS0'},
   {year: 2018, url: 'http://3craceproductions.com/raceresults.php?raceId=2025&type=LINKS0', wayback: 'https://web.archive.org/web/20190403145618/http://www.coolrunning.com/results/17/nh/Nov23_GreatG_set1.shtml'},
