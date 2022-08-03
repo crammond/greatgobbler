@@ -40,7 +40,7 @@ const Header = ({ children, uri }) => (
         <div className="header-bottom">
             <img src={northLogo} height="100px" width="auto" alt=""/>
             <h2 style={{ padding: "0 20px" }}>
-                The Great Gobbler is BACK in-person on Thursday November 25th 2021! Register now to secure your spot and collect our famous race day shirt, available for the first 500 registrants!
+                The 20th Annual 2022 Great Gobbler is on Thursday, November 24 2022! Register now to secure your spot and collect our famous race day shirt, available for the first 500 registrants!
             </h2>
             <img src={southLogo} height="100px" width="auto" alt=""/>
         </div>

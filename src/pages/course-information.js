@@ -10,7 +10,14 @@ class CourseInformation extends Component {
         <Layout title="Course Information">
           <h2>Course Information</h2>
           <p>
-            The 5k race course begins and ends in front of Nashua South High School, running through Mines Falls for the 2nd and 3rd mile:
+            The 5k race course begins by the South rotunda, proceeds out through the gate by the Panther dome
+            through the student parking lots and turns right onto Riverside Drive, stays on Riverside Drive
+            for approx. .5 miles, then turns right onto Stadium Drive toward Stellos Stadium, then passes by
+            the Gate House and waterfalls and the remaining two miles are through the Mine Falls trails with a
+            finish by the South Rotunda.
+          </p>
+          <p>
+            In the event of inclement weather/snow or other conditions, an alternate course may be used.
           </p>
           <img src={courseMap} width="100%" height="auto" alt=""/>
         </Layout>

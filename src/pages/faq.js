@@ -10,7 +10,7 @@ class Faq extends Component {
         <h2>Frequently Asked Questions</h2>
         <h3>When is the race?</h3>
         <p>
-          The race will be held on Thanksgiving Day Thursday, November 25, 2021 at Nashua High School South.
+          The race will be held on Thanksgiving Day Thursday, November 24, 2022 at Nashua High School South.
           The 5K race starts at 8:00 A.M. sharp. The Little Gobbler Fun Run (400m) starts at 7:30 A.M.
         </p>
         <h3>What is the cost of the race?</h3>
@@ -21,12 +21,17 @@ class Faq extends Component {
           <br />
           Little Gobbler (400m) Fun Run is FREE (ages 2-10)
         </p>
+        <p>
+          Registration on race day will cost $30.00 for Adults and $25.00 for Youth
+        </p>
         <h3>How do I sign up?</h3>
         <p>
-          You may register online <a href='https://raceroster.com/events/2021/52332/great-gobbler-thanksgiving-day-5k' target='_blank' rel="noopener noreferrer">HERE</a>
+          You may register online <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target='_blank' rel="noopener noreferrer">HERE</a>
         </p>
         <p>
-          Online registration closes Monday, November 22nd 2021. In-person registration and bib pick up will take place on Wednesday, November 24th at Fleet Feet Sports in Nashua from 10:00am to 5:00pm AND race day morning at Nashua South until 7:30am.
+          Online registration closes Monday, November 21st 2022. In-person registration and bib pick up will take place on Wednesday, November 23rd
+          in the Nashua Southh Cafeteria from 10:00am to 5:00pm AND race day
+          morning at Nashua Southh until 7:30am.
         </p>
         <h3>What happens in the event of inclement weather?</h3>
         <p>
@@ -35,12 +40,12 @@ class Faq extends Component {
         <p>
           There will be no refunds for inclement weather postponements.
         </p>
-        <p>
-          The race directors do reserve the right to change the course in the event of ice/snow on the race course.
-        </p>
         <h3>What is the race course?</h3>
         <p>
           The 5k race course begins on the South track, proceeds out through the gate by the Panther dome through the student parking lots and turns right onto Riverside Drive, stays on Riverside Drive for approx. .5 miles, then turns right onto Stadium Drive toward Stellos Stadium, then passes by the Gate House and waterfalls and the remaining two miles are through the Mine Falls trails with a finish on the Nashua South track.
+        </p>
+        <p>
+          In the event of inclement weather/snow or other conditions, an alternate course may be used.
         </p>
         <p>
           <Link to='/course-information'>HERE</Link> is a link to the course map.
@@ -50,17 +55,25 @@ class Faq extends Component {
         </p>
         <h3>Are you still taking donations of canned goods for the Nashua Soup Kitchen and Shelter?</h3>
         <p>
-          Yes! Donations of canned goods for the Nashua Soup Kitchen and Shelter will be accepted on Wednesday, November 24th at Fleet Feet Sports in Nashua from 10:00am to 5:00pm AND race day morning in the Nashua South cafeteria. Thank you for your generosity!
+          Yes! Donations of canned goods for the Nashua Soup Kitchen and Shelter will be accepted on Wednesday, November 23rd 10:00am to 5:00pm AND race
+          day morning in the Nashua South cafeteria. Thank you for your generosity!
         </p>
         <h3>When can I pick up my race bib?</h3>
         <p>
-          Bib pick (and shirt pick up for the first 500 entrants) up will take place on Wednesday, November 24th at Fleet Feet Sports in Nashua from 10:00am to 5:00pm AND race day morning at Nashua South until 7:30am.
+          Bib pick up (and shirt pick up for the first 500 entrants) will take place
+          on Wednesday, November 23rd 10:00am to 5:00pm AND race day morning at
+          Nashua South until 7:30am.
+        </p>
+        <p>
+          Although Wednesday's early bib-pickup is no longer being held at Fleet
+          Feet, mention your Great Gobbler registration at Fleet Feet Sports in
+          Nashua on November 23rd to receive a 15% off discount on your in-store
+          purchase.
         </p>
         <h3>Will I get a Great Gobbler long sleeve shirt?</h3>
         <p>
-          Our famous Great Gobbler long sleeve shirts are available for the first 500 registrants. Spots are filling fast, so register now! A limited number of sizes will be available for purchase at the Fleet Feet bib pickup and on race day.
-
-          The first 500 registrants can pick up their shirts at bib pick up.
+          Our famous Great Gobbler long sleeve shirts are available for the first 500 registrants. Spots are filling fast, so register now! A limited number of sizes will be available for purchase at the Nashua South bib pickup and
+          on race day. The first 500 registrants can pick up their shirts at bib pick up.
         </p>
         <h3>More Questions?</h3>
         <p>Email Shane Gagnon at gagnonsh@nashua.edu</p>

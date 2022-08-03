@@ -7,10 +7,9 @@ class Volunteer extends Component {
     return (
       <Layout title="Volunteer">
         <h2>Volunteer</h2>
-        <p>We appreciate the help of all our volunteers! A volunteer sign up page is coming soon</p>
-        {/* <p>
-          We always need volunteers! If you would like to volunteer, please signup <a href="http://www.signupgenius.com/go/5080c4faca923a3fd0-15annual" target="_blank" rel="noopener noreferrer">HERE</a>. There are many opportunities to help out!
-        </p> */}
+        <p>
+          We always need volunteers! If you would like to volunteer, please signup <a href="https://www.signupgenius.com/go/10C0E4BAAA72AA6F85-great" target="_blank" rel="noopener noreferrer">HERE</a>. There are many opportunities to help out!
+        </p>
       </Layout>
     )
   }
