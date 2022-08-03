@@ -9,7 +9,8 @@ class Registration extends Component {
         <h2>Registration Details</h2>
         <h3>Details</h3>
         <p>
-          You may register online <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target="_blank" rel="noopener noreferrer">HERE</a>
+          {/* You may register online <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target="_blank" rel="noopener noreferrer">HERE</a> */}
+          Online registration link coming soon!
         </p>
         <p>
           Online registration closes on Monday, November 21st 2022 at 11:59 P.M. If there are still spots available, in-person registration will take place on Wednesday, November 23rd in the Nashua South cafeteria from 10:00am to 5:00pm AND race day morning at Nashua South until 7:30am.
