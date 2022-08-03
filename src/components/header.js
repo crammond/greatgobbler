@@ -13,7 +13,7 @@ const items = [
     {key: 'course-information', name: 'Course Information'},
     {key: 'awards', name: 'Awards'},
     {key: 'volunteer', name: 'Volunteer'},
-    {key: 'food-donations', name: 'Food Donations'},
+    {key: 'donations', name: 'Donations'},
     {key: 'sponsors', name: 'Sponsors'},
     {key: 'results', name: 'Results'},
 ];
