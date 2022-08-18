@@ -26,8 +26,7 @@ class Faq extends Component {
         </p>
         <h3>How do I sign up?</h3>
         <p>
-          {/* You may register online <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target='_blank' rel="noopener noreferrer">HERE</a> */}
-          Online registration link coming soon!
+          You may register online <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target='_blank' rel="noopener noreferrer">HERE</a>
         </p>
         <p>
           Online registration closes Monday, November 21st 2022. In-person registration and bib pick up will take place on Wednesday, November 23rd
