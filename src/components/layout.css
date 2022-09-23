@@ -162,3 +162,14 @@ main {
   display: flex;
   align-items: flex-start;
 }
+
+#sponsor-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sponsor-images * {
+  padding: 20px 0;
+  margin: auto 0;
+}
