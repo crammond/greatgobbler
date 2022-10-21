@@ -12,6 +12,8 @@ import gagnons from '../images/Gagnons.png';
 import haggertys from '../images/haggertys_cleaning_service.png';
 import ridof from '../images/Ridof.jpg';
 import ryder from '../images/Ryder.png';
+import grenier from '../images/Grenier.jpg';
+import iM from '../images/iM.png';
 
 const imageInfo = [
   {
@@ -51,9 +53,20 @@ const imageInfo = [
     alt: "Gate City Farms"
   },
   {
+    href: "mailto:ArtiePI@outlook.com",
+    src: grenier,
+    pxWidth: 200,
+    alt: "Grenier Investigations"
+  },
+  {
     src: haggertys,
     pxWidth: 300,
     alt: "Haggerty's Cleaning Service"
+  },
+  {
+    src: iM,
+    pxWidth: 200,
+    alt: "Ian McAfee Incorporated"
   },
   {
     href: "https://www.prgrugs.com/",
