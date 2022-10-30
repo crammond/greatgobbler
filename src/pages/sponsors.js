@@ -14,6 +14,7 @@ import ridof from '../images/Ridof.jpg';
 import ryder from '../images/Ryder.png';
 import grenier from '../images/Grenier.jpg';
 import iM from '../images/iM.png';
+import foxPestControl  from '../images/fox_pest_control.svg';
 
 const imageInfo = [
   {
@@ -41,6 +42,12 @@ const imageInfo = [
     alt: "Fleet Feet Nashua"
   },
   {
+    href: "https://fox-pest.com/manchester-nh/",
+    src: foxPestControl,
+    pxWidth: 200,
+    alt: "Fox Pest Control"
+  },
+  {
     href: "https://www.gagnonelectricservice.com/",
     src: gagnons,
     pxWidth: 200,
@@ -64,6 +71,7 @@ const imageInfo = [
     alt: "Haggerty's Cleaning Service"
   },
   {
+    href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     src: iM,
     pxWidth: 200,
     alt: "Ian McAfee Incorporated"
