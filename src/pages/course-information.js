@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Layout from '../components/layout';
 
-import courseMap from "../images/GobblerMAP2.png"
+import courseMap from "../images/GobblerMap.png"
 
 class CourseInformation extends Component {
   render() {
