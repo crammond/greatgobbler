@@ -8,7 +8,7 @@ class Volunteer extends Component {
       <Layout title="Volunteer">
         <h2>Volunteer</h2>
         <p>
-          We always need volunteers! If you would like to volunteer, please signup <a href="https://www.signupgenius.com/go/10C0E4BAAA72AA6F85-great" target="_blank" rel="noopener noreferrer">HERE</a>. There are many opportunities to help out!
+          We always need volunteers! A sign up page will open in August 2023.
         </p>
       </Layout>
     )
