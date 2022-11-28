@@ -40,7 +40,7 @@ const Header = ({ children, uri }) => (
         <div className="header-bottom">
             <img src={northLogo} height="100px" width="auto" alt=""/>
             <h2 style={{ padding: "0 20px" }}>
-                The 21st Annual 2022 Great Gobbler is on Thursday, November 23 2022! Registration will open in August 2022!
+                The 21st Annual Great Gobbler is on Thursday, November 23 2023! Registration will open in August 2023!
             </h2>
             <img src={southLogo} height="100px" width="auto" alt=""/>
         </div>
