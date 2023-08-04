@@ -114,9 +114,9 @@ class Sponsors extends Component {
         <h3>Thank You to Our 2022 Sponsors!</h3>
         <div id="sponsor-images">
           {imageInfo.map(i => {
-            const image = <img src={i.src} width={`${i.pxWidth}px`} alt={i.alt}/>;
+            const image = <img src={i.src} key={i.alt} width={`${i.pxWidth}px`} alt={i.alt}/>;
             return i.href ? (
-              <a href={i.href} target="_blank" rel="noopener noreferrer">
+              <a href={i.href} key={i.alt} target="_blank" rel="noopener noreferrer">
                 {image}
               </a>
             ) : image;
