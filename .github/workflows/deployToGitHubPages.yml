@@ -10,6 +10,12 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
+      - name: Check GitHub Status
+        uses: crazy-max/ghaction-github-status@v3
+        with:
+          overall_threshold: minor
+          pages_threshold: partial_outage
+
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -23,14 +29,9 @@ jobs:
           npm ci
           npm run build
 
-      - name: Check GitHub Pages status
-        uses: crazy-max/ghaction-github-status@v2
-        with:
-          pages_threshold: major_outage
-
       - name: Deploy to GitHub Pages
         if: success()
-        uses: crazy-max/ghaction-github-pages@v2.2.0
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           build_dir: public
         env:
