@@ -14,3 +14,4 @@ To test the production build locally:
 ```shell
 $ npm run build
 $ npm run serve
+```
