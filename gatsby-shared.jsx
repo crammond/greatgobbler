@@ -1,7 +1,7 @@
 import React from "react";
 import "./src/components/layout.css";
 
-import Header from "./src/components/header.js";
+import Header from "./src/components/header";
 
 /*
 Per https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
