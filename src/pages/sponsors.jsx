@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Layout from '../components/layout';
 
@@ -96,35 +96,31 @@ const imageInfo = [
   }
 ]
 
-class Sponsors extends Component {
-  render() {
-    return (
-      <Layout title="Sponsors">
-        <h2>Sponsors</h2>
-        <h3>Want to become a Sponsor?</h3>
-        <p>
-          We are incredibly grateful for our generous sponsors who make this yearly tradition possible. If interested in sponsoring, please email Shane at gagnonsh@nashua.edu for more information.
-        </p>
-        <h3>Why Sponsor?</h3>
-        <p>
-          Your sponsorship benefits both the Nashua High School North and South Boys’ and Girls’ Cross Country
-          and Track programs. These teams keep students active, strive for academic excellence,
-          and promote community service.
-        </p>
-        <h3>Thank You to Our 2022 Sponsors!</h3>
-        <div id="sponsor-images">
-          {imageInfo.map(i => {
-            const image = <img src={i.src} key={i.alt} width={`${i.pxWidth}px`} alt={i.alt}/>;
-            return i.href ? (
-              <a href={i.href} key={i.alt} target="_blank" rel="noopener noreferrer">
-                {image}
-              </a>
-            ) : image;
-          })}
-        </div>
-      </Layout>
-    )
-  }
-}
+const Sponsors = () => (
+  <Layout title="Sponsors">
+    <h2>Sponsors</h2>
+    <h3>Want to become a Sponsor?</h3>
+    <p>
+      We are incredibly grateful for our generous sponsors who make this yearly tradition possible. If interested in sponsoring, please email Shane at gagnonsh@nashua.edu for more information.
+    </p>
+    <h3>Why Sponsor?</h3>
+    <p>
+      Your sponsorship benefits both the Nashua High School North and South Boys’ and Girls’ Cross Country
+      and Track programs. These teams keep students active, strive for academic excellence,
+      and promote community service.
+    </p>
+    <h3>Thank You to Our 2022 Sponsors!</h3>
+    <div id="sponsor-images">
+      {imageInfo.map(i => {
+        const image = <img src={i.src} key={i.alt} width={`${i.pxWidth}px`} alt={i.alt}/>;
+        return i.href ? (
+          <a href={i.href} key={i.alt} target="_blank" rel="noopener noreferrer">
+            {image}
+          </a>
+        ) : image;
+      })}
+    </div>
+  </Layout>
+)
 
 export default Sponsors;

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Layout from '../components/layout';
 
 const gobblers = [
@@ -36,22 +36,18 @@ function resultsToListItems(results) {
   });
 }
 
-class Results extends Component {
-  render() {
-    return (
-      <Layout title="Results">
-        <h2>Results</h2>
-        <h3>Past Results:</h3>
-        <ul>
-          {resultsToListItems(gobblers)}
-        </ul>
-        <h3>When the race was the Nashua High Alumni Race:</h3>
-        <ul>
-          {resultsToListItems(alumnis)}
-        </ul>
-      </Layout>
-    )
-  }
-}
+const Results = () => (
+  <Layout title="Results">
+    <h2>Results</h2>
+    <h3>Past Results:</h3>
+    <ul>
+      {resultsToListItems(gobblers)}
+    </ul>
+    <h3>When the race was the Nashua High Alumni Race:</h3>
+    <ul>
+      {resultsToListItems(alumnis)}
+    </ul>
+  </Layout>
+)
 
 export default Results;
