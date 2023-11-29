@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 
 const gobblers = [
+  {year: 2023, url: 'https://raceday.enmotive.com/#/events/2023-great-gobbler-5k/results'},
   {year: 2022, url: 'https://www.secondwindtiming.com/result-page/?id=227072'},
   {year: 2021, url: 'https://www.secondwindtiming.com/result-page/?id=187241'},
   {year: 2020, url: 'https://runsignup.com/Race/Results/99251#resultSetId-215368;perpage:100'},
