@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgreatgobbler=self.webpackChunkgreatgobbler||[]).push([[728],{1705:function(e,l,t){t.r(l);var n=t(7294),u=t(7934);l.default=()=>n.createElement(u.Z,{title:"Volunteer"},n.createElement("h2",null,"Volunteer"),n.createElement("p",null,"We always need volunteers! A sign up page will open in August 2023."))}}]);
+//# sourceMappingURL=component---src-pages-volunteer-jsx-42f7e2b3ee58bc6098ae.js.map
