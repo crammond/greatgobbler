@@ -8,6 +8,7 @@ import conway from '../images/conway logo.png';
 import chewies from '../images/Chewie Logo.jpg';
 import prg from '../images/PRG Logo.png';
 import haggertys from '../images/haggertys_cleaning_service.png';
+import joesStateFarm from '../images/state_farm_joe_roberts_agency.jpg';
 import ridof from '../images/Ridof.jpg';
 import ryder from '../images/Ryder.png';
 
@@ -42,6 +43,11 @@ const imageInfo = [
     alt: "Haggerty's Cleaning Service"
   },
   {
+    src: joesStateFarm,
+    pxWidth: 200,
+    alt: "Joe Robert's Agency — State Farm"
+  },
+  {
     href: "https://www.prgrugs.com/",
     src: prg,
     pxWidth: 200,
@@ -74,7 +80,7 @@ const Sponsors = () => (
       and Track programs. These teams keep students active, strive for academic excellence,
       and promote community service.
     </p>
-    <h3>Thank You to Our 2022 Sponsors!</h3>
+    <h3>Thank You to Our 2024 Sponsors!</h3>
     <div id="sponsor-images">
       {imageInfo.map(i => {
         const image = <img src={i.src} key={i.alt} width={`${i.pxWidth}px`} alt={i.alt}/>;
