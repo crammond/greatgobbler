@@ -4,17 +4,12 @@ import Layout from '../components/layout';
 
 import stJospeh from '../images/st-joseph-hospital-logo.svg';
 import fleetFeet from '../images/FF_Logo_Nashua_Color.png';
-import gateCityFarms from '../images/Gate City Farm Logo.png';
 import conway from '../images/conway logo.png';
 import chewies from '../images/Chewie Logo.jpg';
 import prg from '../images/PRG Logo.png';
-import gagnons from '../images/Gagnons.png';
 import haggertys from '../images/haggertys_cleaning_service.png';
 import ridof from '../images/Ridof.jpg';
 import ryder from '../images/Ryder.png';
-import grenier from '../images/Grenier.jpg';
-import iM from '../images/iM.png';
-import foxPestControl  from '../images/fox_pest_control.svg';
 
 const imageInfo = [
   {
@@ -42,39 +37,9 @@ const imageInfo = [
     alt: "Fleet Feet Nashua"
   },
   {
-    href: "https://fox-pest.com/manchester-nh/",
-    src: foxPestControl,
-    pxWidth: 200,
-    alt: "Fox Pest Control"
-  },
-  {
-    href: "https://www.gagnonelectricservice.com/",
-    src: gagnons,
-    pxWidth: 200,
-    alt: "Gagnon's Electrical Service"
-  },
-  {
-    href: "https://www.gatecityfarms.com/",
-    src: gateCityFarms,
-    pxWidth: 200,
-    alt: "Gate City Farms"
-  },
-  {
-    href: "mailto:ArtiePI@outlook.com",
-    src: grenier,
-    pxWidth: 200,
-    alt: "Grenier Investigations"
-  },
-  {
     src: haggertys,
     pxWidth: 300,
     alt: "Haggerty's Cleaning Service"
-  },
-  {
-    href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    src: iM,
-    pxWidth: 200,
-    alt: "Ian McAfee Incorporated"
   },
   {
     href: "https://www.prgrugs.com/",
