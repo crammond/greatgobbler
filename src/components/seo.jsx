@@ -7,7 +7,7 @@ import favicon16 from "../images/favicon.ico";
 
 const REVISION = process.env.GATSBY_GIT_SHA;
 
-function Seo({ description, lang, title, meta }) {
+function Seo({ description = '', lang = 'en', title, meta = [] }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -57,12 +57,6 @@ function Seo({ description, lang, title, meta }) {
     />
   )
 }
-
-Seo.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-};
 
 Seo.propTypes = {
   description: PropTypes.string,
