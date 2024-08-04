@@ -6,7 +6,7 @@ const Volunteer = () => (
   <Layout title="Volunteer">
     <h2>Volunteer</h2>
     <p>
-      We always need volunteers! A sign up page will open in August 2023.
+      We always need volunteers! A sign up page will open in August 2024.
     </p>
   </Layout>
 )
