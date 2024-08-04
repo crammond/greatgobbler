@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgreatgobbler=self.webpackChunkgreatgobbler||[]).push([[327],{4365:function(e,t,l){l.r(t);var a=l(7294),r=l(7934);t.default=()=>a.createElement(r.Z,{title:"Awards"},a.createElement("h2",null,"Awards"),a.createElement("p",null,"Awards will be given to the top 3 male and female 5K competitors"))}}]);
+//# sourceMappingURL=component---src-pages-awards-jsx-4439887b593e348f6489.js.map
