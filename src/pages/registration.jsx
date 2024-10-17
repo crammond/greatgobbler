@@ -7,7 +7,7 @@ const Registration = () => (
     <h2>Registration Details</h2>
     <h3>Details</h3>
     <p>
-      Registration is now open! <a href='https://greatgobbler.enmotive.com/events/register/2024-great-gobbler-5k' target='_blank' rel="noopener noreferrer">here</a>.
+      Registration is now open! <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target='_blank' rel="noopener noreferrer">here</a>.
       Online registration closes when we reach capacity. If there are still spots available, in-person registration will take place on Wednesday, November 27th in the Nashua South cafeteria from 10:00am to 5:00pm AND race day morning at Nashua South until 7:30am.
     </p>
     <h3>Cost</h3>

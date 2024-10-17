@@ -32,7 +32,7 @@ const Faq = () => (
     </p>
     <h3>How do I sign up?</h3>
     <p>
-      Registration for the 22nd annual Great Gobbler is now open! Sign up <a href='https://greatgobbler.enmotive.com/events/register/2024-great-gobbler-5k' target='_blank' rel="noopener noreferrer">here</a>.
+      Registration for the 22nd annual Great Gobbler is now open! Sign up <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target='_blank' rel="noopener noreferrer">here</a>.
     </p>
     <p>
       Online registration closes when we reach capacity. In-person registration and bib pick up will take place on Wednesday, November 27th
