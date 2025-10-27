@@ -80,7 +80,7 @@ const Sponsors = () => (
       and Track programs. These teams keep students active, strive for academic excellence,
       and promote community service.
     </p>
-    <h3>Thank You to Our 2024 Sponsors!</h3>
+    <h3>Thank You to Our 2025 Sponsors!</h3>
     <div id="sponsor-images">
       {imageInfo.map(i => {
         const image = <img src={i.src} key={i.alt} width={`${i.pxWidth}px`} alt={i.alt}/>;

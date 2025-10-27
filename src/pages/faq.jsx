@@ -8,7 +8,7 @@ const Faq = () => (
     <h2>Frequently Asked Questions</h2>
     <h3>When is the race?</h3>
     <p>
-      The race will be held on Thanksgiving Day Thursday, November 28th 2024 at Nashua High School South.
+      The race will be held on Thanksgiving Day Thursday, November 27th 2025 at Nashua High School South.
       The 5K race starts at 8:00 A.M. sharp. The Little Gobbler Fun Run (400m) starts at 7:30 A.M. at the South Track!
     </p>
     <h3>What is the cost of the race?</h3>
@@ -19,7 +19,7 @@ const Faq = () => (
       <br />
       $20.00 Youth (17 and younger)
       <br />
-      Regular pricing September 1st - November 27th
+      Regular pricing September 1st - November 26th
       <br />
       $30.00 Adults (18 and older)
       <br />
@@ -32,10 +32,10 @@ const Faq = () => (
     </p>
     <h3>How do I sign up?</h3>
     <p>
-      Registration for the 22nd annual Great Gobbler is now open! Sign up <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target='_blank' rel="noopener noreferrer">here</a>.
+      Registration for the 23rd annual Great Gobbler is now open! Sign up <a href='https://runsignup.com/Race/NH/Nashua/GreatGobbler5k' target='_blank' rel="noopener noreferrer">here</a>.
     </p>
     <p>
-      Online registration closes when we reach capacity. In-person registration and bib pick up will take place on Wednesday, November 27th
+      Online registration closes when we reach capacity. In-person registration and bib pick up will take place on Wednesday, November 26th
       in the Nashua South Cafeteria from 10:00am to 5:00pm AND race day
       morning at Nashua South until 7:30am.
     </p>
@@ -65,20 +65,20 @@ const Faq = () => (
     </p>
     <h3>Are you still taking donations of canned goods for the Nashua Soup Kitchen and Shelter?</h3>
     <p>
-      Yes! Donations of canned goods for the Nashua Soup Kitchen and Shelter will be accepted on Wednesday, November 27th 10:00am to 5:00pm AND race
+      Yes! Donations of canned goods for the Nashua Soup Kitchen and Shelter will be accepted on Wednesday, November 26th 10:00am to 5:00pm AND race
       day morning in the Nashua South cafeteria. Thank you for your generosity!
     </p>
     <h3>When can I pick up my race bib?</h3>
     <p>
       Bib pick up (and shirt pick up for the first 500 entrants) will take place
-      on Wednesday, November 27th 10:00am to 5:00pm AND race day morning at
+      on Wednesday, November 26th 10:00am to 5:00pm AND race day morning at
       Nashua South until 7:30am. We STRONGLY recommend taking advantage of early bib pick up
       to avoid lines and stress on race day morning.
     </p>
     <p>
       Although Wednesday's early bib-pickup is no longer being held at Fleet
       Feet, mention your Great Gobbler registration at Fleet Feet Sports in
-      Nashua on November 27th to receive a 15% off discount on your in-store
+      Nashua on November 26th to receive a 15% off discount on your in-store
       purchase.
     </p>
     <h3>Will I get a Great Gobbler long sleeve shirt?</h3>
