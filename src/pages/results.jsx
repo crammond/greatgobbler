@@ -12,7 +12,8 @@ const gobblers = [
   {year: 2018, url: 'http://3craceproductions.com/raceresults.php?raceId=2025&type=LINKS0', wayback: 'https://web.archive.org/web/20190403145618/http://www.coolrunning.com/results/17/nh/Nov23_GreatG_set1.shtml'},
   {year: 2017, url: 'http://www.coolrunning.com/results/17/nh/Nov23_GreatG_set1.shtml'},
   {year: 2016, url: 'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2016Results.htm'},
-  {year: 2015, url: 'http://www.coolrunning.com/results/15/nh/Nov26_GreatG_set1.shtml', unavailable: true},
+  // TODO archive coolrunning links somewhere, 2015's was 'http://www.coolrunning.com/results/15/nh/Nov26_GreatG_set1.shtml' but is not available on web archive
+  {year: 2015, url: 'https://www.athlinks.com/event/15908/results/Event/496112'},
   {year: 2014, url: 'http://www.coolrunning.com/results/14/nh/Nov27_GreatG_set1.shtml', wayback: 'https://web.archive.org/web/20191026172641/http://www.coolrunning.com/results/14/nh/Nov27_GreatG_set1.shtml'},
   {year: 2013, url: 'http://www.coolrunning.com/results/13/nh/Nov28_GreatG_1_set1.shtml', wayback: 'https://web.archive.org/web/20150428045407/http://www.coolrunning.com/results/13/nh/Nov28_GreatG_1_set1.shtml'},
   {year: 2012, url: 'http://www.millenniumrunning.com/results-great-gobbler-thanksgiving-5k-2012/4636'},
