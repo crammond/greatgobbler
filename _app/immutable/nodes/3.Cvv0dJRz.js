@@ -1,0 +1,1 @@
+import{f as t,a as r}from"../chunks/SJKxTexv.js";import"../chunks/_HRUur2D.js";import{n as e}from"../chunks/BaVLCiVW.js";var m=t("<h2>Awards</h2> <p>Awards will be given to the top 3 male and female 5K competitors</p>",1);function i(o){var a=m();e(2),r(o,a)}export{i as component};
