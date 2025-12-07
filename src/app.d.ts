@@ -1,0 +1,20 @@
+interface PageMeta {
+  title?: string;
+  description?: string;
+}
+
+// See https://svelte.dev/docs/kit/types#app.d.ts
+// for information about these interfaces
+declare global {
+  namespace App {
+    // interface Error {}
+    // interface Locals {}
+    interface PageData {
+      meta?: PageMeta;
+    }
+    // interface PageState {}
+    // interface Platform {}
+  }
+}
+
+export {};

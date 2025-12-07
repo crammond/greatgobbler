@@ -1,33 +1,45 @@
 {
   "name": "greatgobbler",
+  "private": true,
   "version": "0.1.0",
   "author": "Craig Hammond <craig@craighammond.me>",
-  "dependencies": {
-    "gatsby": "^5.15.0",
-    "gatsby-plugin-react-helmet": "^6.15.0",
-    "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "prop-types": "^15.8.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-helmet": "^6.1.0"
-  },
+  "type": "module",
   "devDependencies": {
-    "cross-env": "^10.1.0"
+    "@eslint/compat": "^1.4.0",
+    "@eslint/js": "^9.39.1",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.48.5",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@types/node": "^24.10.1",
+    "@vitest/browser-playwright": "^4.0.10",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-svelte": "^3.13.0",
+    "globals": "^16.5.0",
+    "playwright": "^1.56.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-svelte": "^3.4.0",
+    "svelte": "^5.43.8",
+    "svelte-check": "^4.3.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.47.0",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.10",
+    "vitest-browser-svelte": "^2.0.1"
   },
   "scripts": {
-    "build": "cross-env GATSBY_GIT_SHA=`git rev-parse --short HEAD` gatsby build",
-    "develop": "cross-env GATSBY_GIT_SHA=`git rev-parse --short HEAD` gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "start": "npm run dev",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "format": "prettier --write .",
+    "lint": "prettier --check . && eslint .",
+    "test:unit": "vitest",
+    "test": "npm run test:unit -- --run"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/crammond/greatgobbler"

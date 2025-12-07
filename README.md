@@ -2,16 +2,26 @@
 
 This is the source code for greatgobbler.com.
 
-## Develop
+## Developing
 
 ```shell
-$ npm ci # pull down packages
-$ npm start # start development server
+npm ci # pull down packages
+npm run dev # start development server
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
 ```
 
-To test the production build locally:
+## Building
+
+To create a production version of your app:
 
 ```shell
-$ npm run build
-$ npm run serve
+npm run build
+```
+
+You can preview the production build with:
+
+```shell
+npm run preview
 ```
