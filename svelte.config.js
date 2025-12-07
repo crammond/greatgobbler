@@ -9,10 +9,10 @@ const config = {
   kit: {
     adapter: adapter({
       fallback: '/404.html'
-    })
-    // version: {
-    // 	name: child_process.execSync('git rev-parse --short HEAD').toString().trim()
-    // }
+    }),
+    version: {
+    	name: child_process.execSync('git rev-parse --short HEAD').toString().trim()
+    }
   }
 };
 
