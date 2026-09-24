@@ -37,7 +37,7 @@
   <div class="header-bottom">
     <img src={northLogo} height="100px" width="auto" alt="" />
     <h2 style="padding: 0 20px;">
-      The 23rd Annual Great Gobbler is on Thursday, November 27th 2025! Registration is open! Sign
+      The 24th Annual Great Gobbler is on Thursday, November 26th 2026! Registration is open! Sign
       up now to secure your spot and receive a Gobbler shirt, available for the first 500
       registrants only!
     </h2>

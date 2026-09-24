@@ -5,7 +5,7 @@
 <h2>Frequently Asked Questions</h2>
 <h3>When is the race?</h3>
 <p>
-  The race will be held on Thanksgiving Day Thursday, November 27th 2025 at Nashua High School
+  The race will be held on Thanksgiving Day Thursday, November 26th 2026 at Nashua High School
   South. The 5K race starts at 8:00 A.M. sharp. The Little Gobbler Fun Run (400m) starts at 7:30
   A.M. at the South Track!
 </p>
@@ -17,7 +17,7 @@
   <br />
   $20.00 Youth (17 and younger)
   <br />
-  Regular pricing September 1st - November 26th
+  Regular pricing September 1st - November 25th
   <br />
   $30.00 Adults (18 and older)
   <br />
@@ -28,7 +28,7 @@
 <p>Registration on race day will cost $35.00 for Adults and $30.00 for Youth</p>
 <h3>How do I sign up?</h3>
 <p>
-  Registration for the 23rd annual Great Gobbler is now open! Sign up <a
+  Registration for the 24th annual Great Gobbler is now open! Sign up <a
     href="https://runsignup.com/Race/NH/Nashua/GreatGobbler5k"
     target="_blank"
     rel="noopener noreferrer">here</a
@@ -89,4 +89,4 @@
   their shirts at bib pick up.
 </p>
 <h3>More Questions?</h3>
-<p>Email Shane Gagnon at gagnonsh@nashua.edu</p>
+<p>Email Nate Burns at burnsn@nashua.edu</p>

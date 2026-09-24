@@ -119,7 +119,7 @@
   Country and Track programs. These teams keep students active, strive for academic excellence, and
   promote community service.
 </p>
-<h3>Thank You to Our 2025 Sponsors!</h3>
+<h3>Thank You to Our 2026 Sponsors!</h3>
 <div id="sponsor-images">
   {#each imageInfo as i (i.alt)}
     {#if i.href}
