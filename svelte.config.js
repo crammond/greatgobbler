@@ -12,7 +12,7 @@ const config = {
       fallback: '/404.html'
     }),
     version: {
-    	name: execSync('git rev-parse --short HEAD').toString().trim()
+      name: execSync('git rev-parse --short HEAD').toString().trim()
     }
   }
 };
