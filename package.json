@@ -4,6 +4,29 @@
   "version": "0.1.0",
   "author": "Craig Hammond <craig@craighammond.me>",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crammond/greatgobbler"
+  },
+  "engines": {
+    "node": "^26"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "format": "prettier --write .",
+    "lint": "prettier --check . && eslint .",
+    "test:unit": "vitest",
+    "test": "npm run test:unit -- --run"
+  },
+  "overrides": {
+    "cookie@0.6.0": "0.7.2"
+  },
   "devDependencies": {
     "@eslint/compat": "^2.1.1",
     "@eslint/js": "^10.0.1",
@@ -26,26 +49,5 @@
     "vite": "^8.3.0",
     "vitest": "^5.0.1",
     "vitest-browser-svelte": "^3.1.0"
-  },
-  "overrides": {
-    "cookie@0.6.0": "0.7.2"
-  },
-  "scripts": {
-    "start": "npm run dev",
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "prepare": "svelte-kit sync || echo ''",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "format": "prettier --write .",
-    "lint": "prettier --check . && eslint .",
-    "test:unit": "vitest",
-    "test": "npm run test:unit -- --run"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/crammond/greatgobbler"
-  },
-  "packageManager": "npm@11.6.2+sha512.ee22b335fcbc95662cdf3ab8a053daf045d9cf9c6df6040d28965abb707512b2c16fa6c5eec049d34c74f78f390cebd14f697919eadb97756564d4f9eccc4954"
+  }
 }
