@@ -111,7 +111,7 @@
 <h3>Want to become a Sponsor?</h3>
 <p>
   We are incredibly grateful for our generous sponsors who make this yearly tradition possible. If
-  interested in sponsoring, please email Shane at gagnonsh@nashua.edu for more information.
+  interested in sponsoring, please email Nate Burns at burnsn@nashua.edu for more information.
 </p>
 <h3>Why Sponsor?</h3>
 <p>
