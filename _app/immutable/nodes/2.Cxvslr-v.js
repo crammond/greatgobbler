@@ -1,0 +1,6 @@
+import{B as e,_ as t,k as n,y as r}from"../chunks/Qu0b2TD-.js";import"../chunks/xihTtKlq.js";import"../chunks/B_ubeIgy.js";import{t as i}from"../chunks/CwLNPqZE.js";var a=r(`<!> <div id="home"><div><p style="color: red; font-weight: bold; font-size: 2.5rem; margin: 0;">Join us for the 24th annual Great Gobbler! The Little Gobbler kid’s fun run will begin at
+      7:30am, followed by the 5K at 8:00am.</p> <h2>A Nashua Community Thanksgiving Tradition</h2> <p>Warm up your Thanksgiving appetite at Nashua High School South at the 24th Annual Great
+      Gobbler 5K! The Great Gobbler 5K brings together family, friends, Nashua High School cross
+      country alumni as well as the Greater Nashua area community to start the day in a healthy way.
+      Join runners, joggers and walkers for a morning of fun in support of the Nashua North and
+      South Boys and Girls Cross Country Programs.</p></div> <a class="register-button" href="https://runsignup.com/Race/NH/Nashua/GreatGobbler5k" target="_blank" rel="noopener noreferrer">REGISTER</a></div>`,1);function o(r){var o=a(),s=n(o);i(s,{title:`Home`}),e(2),t(r,o)}export{o as component};
