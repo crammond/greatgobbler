@@ -1,6 +1,6 @@
 # Great Gobbler 5K
 
-This is the source code for greatgobbler.com.
+This is the source code for greatgobbler5k.com.
 
 ## Developing
 
