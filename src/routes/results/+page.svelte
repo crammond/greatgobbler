@@ -7,29 +7,37 @@
   };
 
   const gobblers: Result[] = [
-    { year: 2025, url: 'https://www.athlinks.com/event/15908/results/Event/1103677/Results' },
+    { year: 2025, url: 'https://www.athlinks.com/event/15908/results/Event/1128690/Results' },
     { year: 2024, url: 'https://www.athlinks.com/event/15908/results/Event/1095401/Results' },
-    { year: 2023, url: 'https://raceday.enmotive.com/#/events/2023-great-gobbler-5k/results' },
+    { year: 2023, url: 'https://raceday.enmotive.com/#/events/2023-great-gobbler-5k/results', wayback: 'https://gallery.us.runnertag.site/events/2023-great-gobbler-5k#results' },
     { year: 2022, url: 'https://www.secondwindtiming.com/result-page/?id=227072' },
     { year: 2021, url: 'https://www.secondwindtiming.com/result-page/?id=187241' },
     { year: 2020, url: 'https://runsignup.com/Race/Results/99251#resultSetId-215368;perpage:100' },
     {
       year: 2019,
-      url: 'https://www.3craceproductions.com/raceresults.php?raceId=2146&type=LINKS0'
+      url: 'https://www.3craceproductions.com/raceresults.php?raceId=2146&type=LINKS0',
+      wayback: 'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2019Results.htm'
     },
     {
       year: 2018,
       url: 'http://3craceproductions.com/raceresults.php?raceId=2025&type=LINKS0',
+      wayback: 'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2018Results.htm'
+    },
+    {
+      year: 2017,
+      url: 'http://www.coolrunning.com/results/17/nh/Nov23_GreatG_set1.shtml',
       wayback:
         'https://web.archive.org/web/20190403145618/http://www.coolrunning.com/results/17/nh/Nov23_GreatG_set1.shtml'
     },
-    { year: 2017, url: 'http://www.coolrunning.com/results/17/nh/Nov23_GreatG_set1.shtml' },
     {
       year: 2016,
       url: 'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2016Results.htm'
     },
-    // TODO archive coolrunning links somewhere, 2015's was 'http://www.coolrunning.com/results/15/nh/Nov26_GreatG_set1.shtml' but is not available on web archive
-    { year: 2015, url: 'https://www.athlinks.com/event/15908/results/Event/496112' },
+    {
+      year: 2015,
+      url: 'http://www.coolrunning.com/results/15/nh/Nov26_GreatG_set1.shtml',
+      wayback: 'https://www.athlinks.com/event/15908/results/Event/496112'
+    },
     {
       year: 2014,
       url: 'http://www.coolrunning.com/results/14/nh/Nov27_GreatG_set1.shtml',
@@ -46,7 +54,11 @@
       year: 2012,
       url: 'http://www.millenniumrunning.com/results-great-gobbler-thanksgiving-5k-2012/4636'
     },
-    { year: 2011, url: 'https://my.racewire.com/results/21896' },
+    {
+      year: 2011,
+      url: 'https://my.racewire.com/results/21896',
+      wayback: 'https://www.athlinks.com/event/15908/results/Event/191486/Results'
+    },
     {
       year: 2010,
       url: 'http://www.coolrunning.com/results/10/nh/Nov25_GreatG_set1.shtml',
