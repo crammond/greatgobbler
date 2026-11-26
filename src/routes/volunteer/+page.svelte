@@ -3,6 +3,8 @@
   We always need volunteers! If you would like to volunteer, please sign up <a
     href="https://www.signupgenius.com/go/5080C4FACA923A3FD0-15annual#/"
     target="_blank"
-    rel="noopener noreferrer">HERE</a
-  >. There are many opportunities to help out!
+    rel="noopener noreferrer"
+  >
+    HERE
+  </a>. There are many opportunities to help out!
 </p>

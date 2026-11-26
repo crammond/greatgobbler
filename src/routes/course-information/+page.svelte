@@ -1,5 +1,5 @@
 <script lang="ts">
-  import courseMap from '$lib/assets/GobblerMap.png';
+  import courseMap from '#lib/assets/GobblerMap.png';
 </script>
 
 <h2>Course Information</h2>
@@ -11,8 +11,10 @@
   Rotunda. <a
     href="https://www.strava.com/routes/3026504962025148624"
     target="_blank"
-    rel="noopener noreferrer">View the full course map here</a
-  >.
+    rel="noopener noreferrer"
+  >
+    View the full course map here
+  </a>.
 </p>
 <p>In the event of inclement weather/snow or other conditions, an alternate course may be used.</p>
 <img src={courseMap} width="100%" height="auto" alt="" />

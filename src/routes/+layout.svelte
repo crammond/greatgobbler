@@ -1,8 +1,8 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import favicon from '$lib/assets/favicon.ico';
-  import Header from '$lib/components/Header.svelte';
-  import Seo from '$lib/components/Seo.svelte';
+  import favicon from '#lib/assets/favicon.ico';
+  import Header from '#lib/components/Header.svelte';
+  import Seo from '#lib/components/Seo.svelte';
   import './layout.css';
 
   let { children } = $props();

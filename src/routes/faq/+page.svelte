@@ -31,8 +31,10 @@
   Registration for the 24th annual Great Gobbler is now open! Sign up <a
     href="https://runsignup.com/Race/NH/Nashua/GreatGobbler5k"
     target="_blank"
-    rel="noopener noreferrer">here</a
-  >.
+    rel="noopener noreferrer"
+  >
+    here
+  </a>.
 </p>
 <p>
   Online registration closes when we reach capacity. In-person registration and bib pick up will
@@ -45,10 +47,13 @@
   snow several times. Any postponement will be announced on this website and on our <a
     href="https://www.facebook.com/greatgobbler5knashua"
     target="_blank"
-    rel="noopener noreferrer">"Great Gobbler Thanksgiving Day 5k" Facebook page</a
-  >. If you don’t see an announcement that means the race is on as scheduled. Due to the large size
-  of the race we cannot respond to individual emails or calls in the days leading up to the race
-  asking if the race “might” be postponed or what our “thinking” is about the weather on race day.
+    rel="noopener noreferrer"
+  >
+    "Great Gobbler Thanksgiving Day 5k" Facebook page
+  </a>. If you don’t see an announcement that means the race is on as scheduled. Due to the large
+  size of the race we cannot respond to individual emails or calls in the days leading up to the
+  race asking if the race “might” be postponed or what our “thinking” is about the weather on race
+  day.
 </p>
 <p>There will be no refunds for inclement weather postponements.</p>
 <h3>What is the race course?</h3>
@@ -59,12 +64,18 @@
   fields. The paved trail will take you right in back toward Nashua South and into the finish by the
   Rotunda. The Little Gobbler 400m fun run starts and finishes at the South Track!
 </p>
+
 <p>In the event of inclement weather/snow or other conditions, an alternate course may be used.</p>
+
 <p>
-  <a href={resolve('/course-information')}>HERE</a> is a link to the course map.
+  <a href={resolve('course-information')}>HERE</a>
+  is a link to the course map.
 </p>
+
 <p>In the event of inclement weather/snow or other conditions, an alternate course may be used.</p>
+
 <h3>Are you still taking donations of canned goods for the Nashua Soup Kitchen and Shelter?</h3>
+
 <p>
   Yes! Donations of canned goods for the Nashua Soup Kitchen and Shelter will be accepted on
   Wednesday, November 26th 10:00am to 5:00pm AND race day morning in the Nashua South cafeteria.

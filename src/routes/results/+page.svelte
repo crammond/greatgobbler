@@ -9,19 +9,25 @@
   const gobblers: Result[] = [
     { year: 2025, url: 'https://www.athlinks.com/event/15908/results/Event/1128690/Results' },
     { year: 2024, url: 'https://www.athlinks.com/event/15908/results/Event/1095401/Results' },
-    { year: 2023, url: 'https://raceday.enmotive.com/#/events/2023-great-gobbler-5k/results', wayback: 'https://gallery.us.runnertag.site/events/2023-great-gobbler-5k#results' },
+    {
+      year: 2023,
+      url: 'https://raceday.enmotive.com/#/events/2023-great-gobbler-5k/results',
+      wayback: 'https://gallery.us.runnertag.site/events/2023-great-gobbler-5k#results'
+    },
     { year: 2022, url: 'https://www.secondwindtiming.com/result-page/?id=227072' },
     { year: 2021, url: 'https://www.secondwindtiming.com/result-page/?id=187241' },
     { year: 2020, url: 'https://runsignup.com/Race/Results/99251#resultSetId-215368;perpage:100' },
     {
       year: 2019,
       url: 'https://www.3craceproductions.com/raceresults.php?raceId=2146&type=LINKS0',
-      wayback: 'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2019Results.htm'
+      wayback:
+        'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2019Results.htm'
     },
     {
       year: 2018,
       url: 'http://3craceproductions.com/raceresults.php?raceId=2025&type=LINKS0',
-      wayback: 'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2018Results.htm'
+      wayback:
+        'https://www.secondwindtiming.com/wp-content/uploads/2021/02/GreatGobbler5K2018Results.htm'
     },
     {
       year: 2017,

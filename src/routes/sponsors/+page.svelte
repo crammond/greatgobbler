@@ -1,18 +1,18 @@
 <script lang="ts">
-  import stJospeh from '$lib/assets/st-joseph-hospital-logo.svg';
-  import fleetFeet from '$lib/assets/FF_Logo_Nashua_Color.png';
-  import conway from '$lib/assets/conway logo.png';
-  import chewies from '$lib/assets/Chewies_Playland_LLC.png';
-  import prg from '$lib/assets/PRG Logo.png';
-  import joesStateFarm from '$lib/assets/state_farm_joe_roberts_agency.jpg';
-  import ridof from '$lib/assets/Ridof.jpg';
-  import ryder from '$lib/assets/Ryder.png';
-  import gateCitySportsMedicine from '$lib/assets/GATE_CITY_SPORTS_MEDICINE.png';
-  import mcCartyElectricSolutions from '$lib/assets/McCarty_Electric_Solutions.png';
-  import perezWrestlingRoom from '$lib/assets/PEREZ_WRESTLING_ROOM.png';
-  import centerForDentalExcellence from '$lib/assets/CENTER_FOR_DENTAL_EXCELLENCE.jpg';
-  import foxPestControl from '$lib/assets/fox_pest_control.svg';
-  import guessingGamesLogo from '$lib/assets/GuessingGamesLogo.png';
+  import stJospeh from '#lib/assets/st-joseph-hospital-logo.svg';
+  import fleetFeet from '#lib/assets/FF_Logo_Nashua_Color.png';
+  import conway from '#lib/assets/conway logo.png';
+  import chewies from '#lib/assets/Chewies_Playland_LLC.png';
+  import prg from '#lib/assets/PRG Logo.png';
+  import joesStateFarm from '#lib/assets/state_farm_joe_roberts_agency.jpg';
+  import ridof from '#lib/assets/Ridof.jpg';
+  import ryder from '#lib/assets/Ryder.png';
+  import gateCitySportsMedicine from '#lib/assets/GATE_CITY_SPORTS_MEDICINE.png';
+  import mcCartyElectricSolutions from '#lib/assets/McCarty_Electric_Solutions.png';
+  import perezWrestlingRoom from '#lib/assets/PEREZ_WRESTLING_ROOM.png';
+  import centerForDentalExcellence from '#lib/assets/CENTER_FOR_DENTAL_EXCELLENCE.jpg';
+  import foxPestControl from '#lib/assets/fox_pest_control.svg';
+  import guessingGamesLogo from '#lib/assets/GuessingGamesLogo.png';
 
   const imageInfo = [
     {

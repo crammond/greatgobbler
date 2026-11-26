@@ -4,8 +4,10 @@
   Registration is now open! <a
     href="https://runsignup.com/Race/NH/Nashua/GreatGobbler5k"
     target="_blank"
-    rel="noopener noreferrer">here</a
-  >. Online registration closes when we reach capacity. If there are still spots available,
+    rel="noopener noreferrer"
+  >
+    here
+  </a>. Online registration closes when we reach capacity. If there are still spots available,
   in-person registration will take place on Wednesday, November 26th in the Nashua South cafeteria
   from 10:00am to 5:00pm AND race day morning at Nashua South until 7:30am.
 </p>

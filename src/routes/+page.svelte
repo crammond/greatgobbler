@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Seo from '$lib/components/Seo.svelte';
+  import Seo from '#lib/components/Seo.svelte';
 </script>
 
 <Seo title="Home" />
@@ -23,6 +23,8 @@
     class="register-button"
     href="https://runsignup.com/Race/NH/Nashua/GreatGobbler5k"
     target="_blank"
-    rel="noopener noreferrer">REGISTER</a
+    rel="noopener noreferrer"
   >
+    REGISTER
+  </a>
 </div>

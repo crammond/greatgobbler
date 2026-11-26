@@ -1,22 +1,22 @@
 <script lang="ts">
   import { resolve } from '$app/paths';
   import { page } from '$app/state';
-  import { type Pathname } from '$app/types';
-  import greatGobblerLogo from '$lib/assets/gobblerlogo.png';
-  import southLogo from '$lib/assets/panther_logo.png';
-  import northLogo from '$lib/assets/titan_logo.png';
-  import startingLinePic from '$lib/assets/gobbler_start_2016_crop3.jpg';
+  import { type Path } from '$app/types';
+  import greatGobblerLogo from '#lib/assets/gobblerlogo.png';
+  import southLogo from '#lib/assets/panther_logo.png';
+  import northLogo from '#lib/assets/titan_logo.png';
+  import startingLinePic from '#lib/assets/gobbler_start_2016_crop3.jpg';
 
-  const items: { key: Pathname; name: string }[] = [
-    { key: '/', name: 'Home' },
-    { key: '/faq', name: 'FAQ' },
-    { key: '/registration', name: 'Registration' },
-    { key: '/course-information', name: 'Course Information' },
-    { key: '/awards', name: 'Awards' },
-    { key: '/volunteer', name: 'Volunteer' },
-    { key: '/donations', name: 'Donations' },
-    { key: '/sponsors', name: 'Sponsors' },
-    { key: '/results', name: 'Results' }
+  const items: { key: Path; name: string }[] = [
+    { key: '', name: 'Home' },
+    { key: 'faq', name: 'FAQ' },
+    { key: 'registration', name: 'Registration' },
+    { key: 'course-information', name: 'Course Information' },
+    { key: 'awards', name: 'Awards' },
+    { key: 'volunteer', name: 'Volunteer' },
+    { key: 'donations', name: 'Donations' },
+    { key: 'sponsors', name: 'Sponsors' },
+    { key: 'results', name: 'Results' }
   ];
 </script>
 
@@ -29,7 +29,9 @@
     <ul class="header-nav">
       {#each items as { key, name } (key)}
         <li class="header-nav-item">
-          <a class={`${key === page.url.pathname ? ' active' : ''}`} href={resolve(key)}>{name}</a>
+          <a class={`${`/${key}` === page.url.pathname ? 'active' : ''}`} href={resolve(key)}>
+            {name}
+          </a>
         </li>
       {/each}
     </ul>
